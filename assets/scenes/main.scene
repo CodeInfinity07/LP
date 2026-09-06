@@ -135,7 +135,7 @@
     "_illuminanceLDR": 1.6927083333333335,
     "_shadowEnabled": false,
     "_shadowPcf": 0,
-    "_shadowBias": 0.00001,
+    "_shadowBias": 1e-05,
     "_shadowNormalBias": 0,
     "_shadowSaturation": 1,
     "_shadowDistance": 50,
@@ -3018,7 +3018,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "70054794-42d7-4e5b-b487-54af176d7f2e@f9941",
+      "__uuid__": "70054794-42d7-4e5b-b487-54af176d7f2e@04c30",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 1,
