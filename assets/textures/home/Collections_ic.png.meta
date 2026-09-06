@@ -32,11 +32,11 @@
       ],
       "subMetas": {}
     },
-    "0020b": {
+    "3dfe1": {
       "importer": "sprite-frame",
-      "uuid": "40008749-36fa-4f5c-a5e6-6d0c302836fd@0020b",
+      "uuid": "40008749-36fa-4f5c-a5e6-6d0c302836fd@3dfe1",
       "displayName": "Collections_ic",
-      "id": "0020b",
+      "id": "3dfe1",
       "name": "spriteFrame",
       "userData": {
         "trimThreshold": 1,
@@ -129,6 +129,6 @@
     "type": "sprite-frame",
     "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "40008749-36fa-4f5c-a5e6-6d0c302836fd@0020b"
+    "redirect": "40008749-36fa-4f5c-a5e6-6d0c302836fd@3dfe1"
   }
 }

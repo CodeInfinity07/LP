@@ -32,11 +32,11 @@
       ],
       "subMetas": {}
     },
-    "f817e": {
+    "c79d3": {
       "importer": "sprite-frame",
-      "uuid": "c5f9525d-aa51-4597-aca4-4737da5f3462@f817e",
+      "uuid": "c5f9525d-aa51-4597-aca4-4737da5f3462@c79d3",
       "displayName": "Vip Room",
-      "id": "f817e",
+      "id": "c79d3",
       "name": "spriteFrame",
       "userData": {
         "trimThreshold": 1,
@@ -129,6 +129,6 @@
     "type": "sprite-frame",
     "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "c5f9525d-aa51-4597-aca4-4737da5f3462@f817e"
+    "redirect": "c5f9525d-aa51-4597-aca4-4737da5f3462@c79d3"
   }
 }

@@ -32,11 +32,11 @@
       ],
       "subMetas": {}
     },
-    "86894": {
+    "771f8": {
       "importer": "sprite-frame",
-      "uuid": "3aeb1d59-6f61-4c04-ab49-4fe23e588f57@86894",
+      "uuid": "3aeb1d59-6f61-4c04-ab49-4fe23e588f57@771f8",
       "displayName": "Bottom Bar",
-      "id": "86894",
+      "id": "771f8",
       "name": "spriteFrame",
       "userData": {
         "trimThreshold": 1,
@@ -129,6 +129,6 @@
     "type": "sprite-frame",
     "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "3aeb1d59-6f61-4c04-ab49-4fe23e588f57@86894"
+    "redirect": "3aeb1d59-6f61-4c04-ab49-4fe23e588f57@771f8"
   }
 }

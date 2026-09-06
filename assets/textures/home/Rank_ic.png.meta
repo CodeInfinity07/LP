@@ -32,11 +32,11 @@
       ],
       "subMetas": {}
     },
-    "865d8": {
+    "89202": {
       "importer": "sprite-frame",
-      "uuid": "3ff4949d-c8e1-4f45-80b6-7f6f34a51c0c@865d8",
+      "uuid": "3ff4949d-c8e1-4f45-80b6-7f6f34a51c0c@89202",
       "displayName": "Rank_ic",
-      "id": "865d8",
+      "id": "89202",
       "name": "spriteFrame",
       "userData": {
         "trimThreshold": 1,
@@ -129,6 +129,6 @@
     "type": "sprite-frame",
     "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "3ff4949d-c8e1-4f45-80b6-7f6f34a51c0c@865d8"
+    "redirect": "3ff4949d-c8e1-4f45-80b6-7f6f34a51c0c@89202"
   }
 }

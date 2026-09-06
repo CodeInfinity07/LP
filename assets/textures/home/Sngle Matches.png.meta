@@ -32,11 +32,11 @@
       ],
       "subMetas": {}
     },
-    "a47b3": {
+    "9e808": {
       "importer": "sprite-frame",
-      "uuid": "5752fa1c-6ca3-4c19-93dc-574f0a4ffc9d@a47b3",
+      "uuid": "5752fa1c-6ca3-4c19-93dc-574f0a4ffc9d@9e808",
       "displayName": "Sngle Matches",
-      "id": "a47b3",
+      "id": "9e808",
       "name": "spriteFrame",
       "userData": {
         "trimThreshold": 1,
@@ -129,6 +129,6 @@
     "type": "sprite-frame",
     "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "5752fa1c-6ca3-4c19-93dc-574f0a4ffc9d@a47b3"
+    "redirect": "5752fa1c-6ca3-4c19-93dc-574f0a4ffc9d@9e808"
   }
 }

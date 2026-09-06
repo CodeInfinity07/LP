@@ -32,11 +32,11 @@
       ],
       "subMetas": {}
     },
-    "ee150": {
+    "152cf": {
       "importer": "sprite-frame",
-      "uuid": "bec99096-d38d-4614-ad74-b477bbebcc93@ee150",
+      "uuid": "bec99096-d38d-4614-ad74-b477bbebcc93@152cf",
       "displayName": "Tournament",
-      "id": "ee150",
+      "id": "152cf",
       "name": "spriteFrame",
       "userData": {
         "trimThreshold": 1,
@@ -129,6 +129,6 @@
     "type": "sprite-frame",
     "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "bec99096-d38d-4614-ad74-b477bbebcc93@ee150"
+    "redirect": "bec99096-d38d-4614-ad74-b477bbebcc93@152cf"
   }
 }

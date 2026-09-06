@@ -32,11 +32,11 @@
       ],
       "subMetas": {}
     },
-    "ca98d": {
+    "04c30": {
       "importer": "sprite-frame",
-      "uuid": "70054794-42d7-4e5b-b487-54af176d7f2e@ca98d",
+      "uuid": "70054794-42d7-4e5b-b487-54af176d7f2e@04c30",
       "displayName": "Evants",
-      "id": "ca98d",
+      "id": "04c30",
       "name": "spriteFrame",
       "userData": {
         "trimThreshold": 1,
@@ -129,6 +129,6 @@
     "type": "sprite-frame",
     "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "70054794-42d7-4e5b-b487-54af176d7f2e@ca98d"
+    "redirect": "70054794-42d7-4e5b-b487-54af176d7f2e@04c30"
   }
 }

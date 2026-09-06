@@ -32,11 +32,11 @@
       ],
       "subMetas": {}
     },
-    "03f75": {
+    "f3f1d": {
       "importer": "sprite-frame",
-      "uuid": "049648fa-33d7-4b34-9abd-9b7691290e5f@03f75",
+      "uuid": "049648fa-33d7-4b34-9abd-9b7691290e5f@f3f1d",
       "displayName": "Friends",
-      "id": "03f75",
+      "id": "f3f1d",
       "name": "spriteFrame",
       "userData": {
         "trimThreshold": 1,
@@ -129,6 +129,6 @@
     "type": "sprite-frame",
     "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "049648fa-33d7-4b34-9abd-9b7691290e5f@03f75"
+    "redirect": "049648fa-33d7-4b34-9abd-9b7691290e5f@f3f1d"
   }
 }

@@ -32,11 +32,11 @@
       ],
       "subMetas": {}
     },
-    "f9156": {
+    "d4429": {
       "importer": "sprite-frame",
-      "uuid": "ae940e58-2f9c-4643-9ae6-e15de5e95c18@f9156",
+      "uuid": "ae940e58-2f9c-4643-9ae6-e15de5e95c18@d4429",
       "displayName": "Clubs",
-      "id": "f9156",
+      "id": "d4429",
       "name": "spriteFrame",
       "userData": {
         "trimThreshold": 1,
@@ -129,6 +129,6 @@
     "type": "sprite-frame",
     "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "ae940e58-2f9c-4643-9ae6-e15de5e95c18@f9156"
+    "redirect": "ae940e58-2f9c-4643-9ae6-e15de5e95c18@d4429"
   }
 }
