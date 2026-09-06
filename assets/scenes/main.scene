@@ -135,7 +135,7 @@
     "_illuminanceLDR": 1.6927083333333335,
     "_shadowEnabled": false,
     "_shadowPcf": 0,
-    "_shadowBias": 0.00001,
+    "_shadowBias": 1e-05,
     "_shadowNormalBias": 0,
     "_shadowSaturation": 1,
     "_shadowDistance": 50,
@@ -1211,7 +1211,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "3ff4949d-c8e1-4f45-80b6-7f6f34a51c0c@89202",
+      "__uuid__": "3ff4949d-c8e1-4f45-80b6-7f6f34a51c0c@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 1,
@@ -1275,7 +1275,7 @@
       "a": 255
     },
     "_normalSprite": {
-      "__uuid__": "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+      "__uuid__": "3ff4949d-c8e1-4f45-80b6-7f6f34a51c0c@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_hoverSprite": {
@@ -1537,7 +1537,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "40008749-36fa-4f5c-a5e6-6d0c302836fd@3dfe1",
+      "__uuid__": "40008749-36fa-4f5c-a5e6-6d0c302836fd@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 1,
@@ -1601,7 +1601,7 @@
       "a": 255
     },
     "_normalSprite": {
-      "__uuid__": "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+      "__uuid__": "40008749-36fa-4f5c-a5e6-6d0c302836fd@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_hoverSprite": {
