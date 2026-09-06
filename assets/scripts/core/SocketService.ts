@@ -1,4 +1,16 @@
-import { io, Socket } from 'socket.io-client';
+// Import the pre-bundled browser build, NOT the bare 'socket.io-client'
+// specifier - the plain package resolves (via its dependency
+// engine.io-client) to a Node-only WebSocket transport file that requires
+// Node's 'fs'/'ws' modules. That swap is normally handled by a bundler
+// respecting engine.io-client's package.json "browser" field (Webpack/
+// Rollup/etc. all do this), but Cocos Creator's own module loader does not,
+// so it loads the Node-only file regardless of running in a browser -
+// producing "Current environment does not provide a require() for
+// requiring 'fs'" at runtime. socket.io-client/dist/socket.io.js is
+// socket.io's own official pre-bundled, dependency-free browser build -
+// see core/socket.io-client-dist.d.ts for the type shim that keeps this
+// import fully typed despite that path having no .d.ts of its own.
+import { io, Socket } from 'socket.io-client/dist/socket.io.js';
 import { Config } from './Config';
 import { UserStore, UserDetails } from './UserStore';
 import { ClubStore, ClubDetails } from './ClubStore';
