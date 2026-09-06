@@ -1,0 +1,357 @@
+# events - layout reference
+
+Extracted from `Assets/Scenes/EventsScene.unity`. Each line: hierarchy path, position (Unity anchored position, x/y in px from anchor), size (width×height), and its sprite image or text content.
+Position/size values are Unity coordinates - use as a reference for relative placement/proportions when laying out the equivalent Cocos node, not literal drop-in numbers (Cocos's coordinate system and anchoring differ).
+
+- **Canvas/Events Panel**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Bg.png`
+- **Canvas/Test BG**: pos (0, 0) — size 1080×2444.0 — sprite `UI/Sprites/23 Events/23 Events.png`
+- **Canvas/Events Panel/Safe Area/Footer BG**: pos (0, 0) — size 0×290 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Bottom Bar.png`
+- **Canvas/Events Panel/Safe Area/Header BG**: pos (0, 0) — size 0×210 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Top Bg.png`
+- **Canvas/Events Panel/Safe Area/Scroll View**: pos (0, -215) — size 1080×1390 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Arrival Chest Panel/Close Btn**: pos (-50, -50) — size 93×106 — sprite `UI/Sprites/23 (2) Golds Chest/23 (2) Golds Chest-assets/Close.png`
+- **Canvas/Events Panel/Safe Area/Arrival Chest Panel/Shine BG**: pos (0, 0) — size 1080×1221 — sprite `UI/Sprites/23 (4) Arrival Chest/23 (4) Arrival Chest-assets/Glow.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG**: pos (0, 0) — size 961×1176 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Popup_Box.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/Close Btn**: pos (-50, -50) — size 93×106 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Close.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/Txt BG**: pos (0, 665) — size 388×65 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Basic INfo.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG**: pos (0, 0) — size 961×1501 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Popup_Box.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/Close Btn**: pos (-50, -50) — size 93×106 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Close.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/Text (Legacy)**: pos (0, -820.1) — size 961×106.7 — text "There might be a delay when you watch ads and receive reward"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/Txt BG**: pos (0, 814) — size 394×65 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Daily Task.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Chest BG**: pos (430.8, -40) — size 94×94 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Clubs BG**: pos (216, -40) — size 94×94 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Events BG**: pos (-434.5, -40) — size 94×94 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Friends BG**: pos (-216.9, -40) — size 94×94 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Home BG**: pos (0, -40) — size 94×94 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG**: pos (0, 0) — size 801×1184 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Popup_Box.png`
+- **Canvas/Events Panel/Safe Area/Gold Chest Panel/Close Btn**: pos (-50, -50) — size 93×106 — sprite `UI/Sprites/23 (2) Golds Chest/23 (2) Golds Chest-assets/Close.png`
+- **Canvas/Events Panel/Safe Area/Gold Chest Panel/Shine BG**: pos (0, 0) — size 1080×1221 — sprite `UI/Sprites/23 (2) Golds Chest/23 (2) Golds Chest-assets/Glow.png`
+- **Canvas/Events Panel/Safe Area/Header BG/Coin BG**: pos (-133, 0) — size 227×87 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Coin Bg.png`
+- **Canvas/Events Panel/Safe Area/Header BG/Diamond BG**: pos (180, 0) — size 230×87 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Dimond Bg.png`
+- **Canvas/Events Panel/Safe Area/Header BG/Profile Btn**: pos (-440.3, 0) — size 117×117 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Fram.png`
+- **Canvas/Events Panel/Safe Area/Header BG/Setting Btn**: pos (440, 0) — size 94×108 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/setting.png`
+- **Canvas/Events Panel/Safe Area/Header BG/Shop Btn**: pos (312, 0) — size 97×108 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Shop.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG**: pos (0, 0) — size 961×1076 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Popup_Box.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/Close Btn**: pos (-50, -50) — size 93×106 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Close.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/Txt BG**: pos (0, 600) — size 538×65 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Level Reward.png`
+- **Canvas/Events Panel/Safe Area/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size 0×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport**: pos (0, 0) — size 0×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Arrival Chest Panel/Shine BG/Carpet BG**: pos (0, -162) — size 943×352 — sprite `UI/Sprites/23 (4) Arrival Chest/23 (4) Arrival Chest-assets/coverlet.png`
+- **Canvas/Events Panel/Safe Area/Arrival Chest Panel/Shine BG/Open Btn**: pos (0, -489) — size 281×104 — sprite `UI/Sprites/23 (4) Arrival Chest/23 (4) Arrival Chest-assets/Open_box.png`
+- **Canvas/Events Panel/Safe Area/Arrival Chest Panel/Shine BG/Txt BG**: pos (0, 425) — size 705×65 — sprite `UI/Sprites/23 (4) Arrival Chest/23 (4) Arrival Chest-assets/Daily Task.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG**: pos (0, 0) — size 892×1097 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Popup_Underbox.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG**: pos (0, 0) — size 892×1097 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Popup_Underbox.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG**: pos (0, 80) — size 892×1231 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Popup_Underbox.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/Gem Btn**: pos (-187, -617) — size 281×104 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Dimond_box.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/Text (Legacy)**: pos (0, -706) — size 796.2×56.1 — text "Spend Diamonds or watch ads to upgrade tasks"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/Upgrade Chest Btn**: pos (173, -617) — size 281×104 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Upgrade Chests_box.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/Txt BG/Info Btn**: pos (245, 8) — size 60×68 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Info.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Chest BG/Chest Btn**: pos (0, 5) — size 81×63 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Chest.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Chest BG/Selected BG**: pos (0, 0) — size 181×181 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg_Selected Glow.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Chest BG/Text (Legacy)**: pos (0, -70) — size 110×40 — text "Chest"
+- **Canvas/Events Panel/Safe Area/Footer BG/Clubs BG/Clubs Btn**: pos (0, 5) — size 83×81 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Clubs.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Clubs BG/Notification BG**: pos (65, 30) — size 64×50 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Notificaion_box.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Clubs BG/Selected BG**: pos (0, 0) — size 181×181 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg_Selected Glow.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Clubs BG/Text (Legacy)**: pos (0, -70) — size 110×40 — text "Clubs"
+- **Canvas/Events Panel/Safe Area/Footer BG/Events BG/Events Btn**: pos (0, 5) — size 67×92 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Evants.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Events BG/Selected BG**: pos (0, 0) — size 181×181 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg_Selected Glow.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Events BG/Text (Legacy)**: pos (0, -70) — size 110×40 — text "Events"
+- **Canvas/Events Panel/Safe Area/Footer BG/Friends BG/Friends Btn**: pos (0, 5) — size 84×70 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Friends.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Friends BG/Notification BG**: pos (65, 30) — size 64×50 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Notificaion_box.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Friends BG/Selected BG**: pos (0, 0) — size 181×181 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg_Selected Glow.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Friends BG/Text (Legacy)**: pos (0, -70) — size 110×40 — text "Friends"
+- **Canvas/Events Panel/Safe Area/Footer BG/Home BG/Home Btn**: pos (0, 5) — size 84×75 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Home.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Home BG/Selected BG**: pos (0, 0) — size 181×181 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg_Selected Glow.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Home BG/Text (Legacy)**: pos (0, -70) — size 110×40 — text "Home"
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG**: pos (0, -64) — size 708×974 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Popup_Underbox.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/Close Btn**: pos (318, 512) — size 78×89 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Close_ic.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/Image**: pos (0, 510) — size 475×57 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Reward Chest.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/Text (Legacy)**: pos (6.0, -673.9) — size 812.9×160.5 — text "There might be a delay when you watch ads and receive reward"
+- **Canvas/Events Panel/Safe Area/Gold Chest Panel/Shine BG/Chest BG**: pos (0, 0) — size 501×403 — sprite `UI/Sprites/23 (2) Golds Chest/23 (2) Golds Chest-assets/Chest.png`
+- **Canvas/Events Panel/Safe Area/Gold Chest Panel/Shine BG/Fill BG**: pos (0, -442) — size 589×74 — sprite `UI/Sprites/23 (2) Golds Chest/23 (2) Golds Chest-assets/Arrival Chest_Line1.png`
+- **Canvas/Events Panel/Safe Area/Gold Chest Panel/Shine BG/Image**: pos (-131, 442) — size 166×204 — sprite `UI/Sprites/23 (2) Golds Chest/23 (2) Golds Chest-assets/Card 1bg.png`
+- **Canvas/Events Panel/Safe Area/Gold Chest Panel/Shine BG/Image (1)**: pos (85, 442) — size 166×204 — sprite `UI/Sprites/23 (2) Golds Chest/23 (2) Golds Chest-assets/Card6bg.png`
+- **Canvas/Events Panel/Safe Area/Gold Chest Panel/Shine BG/Info Btn**: pos (-50, -570) — size 60×68 — sprite `UI/Sprites/23 (2) Golds Chest/23 (2) Golds Chest-assets/Info.png`
+- **Canvas/Events Panel/Safe Area/Header BG/Coin BG/Add Btn**: pos (30, 0) — size 63×63 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Puls.png`
+- **Canvas/Events Panel/Safe Area/Header BG/Coin BG/Coin**: pos (-15, 0) — size 70×68 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Coin.png`
+- **Canvas/Events Panel/Safe Area/Header BG/Coin BG/Total Coins TMP**: pos (10, 0) — size 135×87 — text "72.24k" — font size 40
+- **Canvas/Events Panel/Safe Area/Header BG/Diamond BG/Add Btn**: pos (30, 0) — size 63×63 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Puls.png`
+- **Canvas/Events Panel/Safe Area/Header BG/Diamond BG/Diamond**: pos (-15, 0) — size 66×59 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Dimond.png`
+- **Canvas/Events Panel/Safe Area/Header BG/Diamond BG/Total Gems TMP**: pos (10, 0) — size 135×87 — text "45.84k" — font size 40
+- **Canvas/Events Panel/Safe Area/Header BG/Profile Btn/Offline BG**: pos (39.8, 54.4) — size 30×30 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Offline.png`
+- **Canvas/Events Panel/Safe Area/Header BG/Profile Btn/Online BG**: pos (39.8, 54.4) — size 30×30 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Online.png`
+- **Canvas/Events Panel/Safe Area/Header BG/Profile Btn/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/Events Panel/Safe Area/Header BG/Profile Btn/Profile BG**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG**: pos (0, 0) — size 892×1002 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Popup_Underbox.png`
+- **Canvas/Events Panel/Safe Area/Arrival Chest Panel/Shine BG/Carpet BG/Chest BG**: pos (0, 171) — size 501×414 — sprite `UI/Sprites/23 (4) Arrival Chest/23 (4) Arrival Chest-assets/Chest.png`
+- **Canvas/Events Panel/Safe Area/Arrival Chest Panel/Shine BG/Open Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "OPEN"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Profile Frame Btn**: pos (-221.0, 229) — size 446×97 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Profile Frame_Un_Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Profile Photo Btn**: pos (221, 229) — size 446×97 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Profile Frame_Un_Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View**: pos (0, -183) — size 815×667.8 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Profile Frame Btn**: pos (-221.0, 229) — size 446×97 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Profile Frame_Un_Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Profile Photo Btn**: pos (221, 229) — size 446×97 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Profile Frame_Un_Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View**: pos (0, -183) — size 815×667.8 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View**: pos (0, 0) — size 892×1120 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/Gem Btn/Image**: pos (-46, 5) — size 59×53 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Dimond.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/Upgrade Chest Btn/Image**: pos (-70.3, 0) — size 50×50 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Watch ad_ic.png`
+- **Canvas/Events Panel/Safe Area/Footer BG/Clubs BG/Notification BG/Text (Legacy)**: pos (0, 0) — size 80×79 — text "50"
+- **Canvas/Events Panel/Safe Area/Footer BG/Friends BG/Notification BG/Text (Legacy)**: pos (0, 0) — size 80×79 — text "110"
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Ad Txt**: pos (0, -320) — size 456.1×68.5 — text "Ad watched times today: 1/6"
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Chest Right BG**: pos (193, 281) — size 255×99 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Reward_Box_Left.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Coin Left BG**: pos (-200, 157) — size 255×99 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Reward_Box_Right.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Coing Right BG**: pos (193, -192) — size 255×99 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Reward_Box_Left.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Fill BG**: pos (0, 93) — size 91×699 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Line_box.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Gem Left BG**: pos (-200, 392) — size 255×99 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Reward_Box_Right.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Watch AD Btn**: pos (0, -417) — size 315×104 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Watch ad_box.png`
+- **Canvas/Events Panel/Safe Area/Gold Chest Panel/Shine BG/Fill BG/Filler BG**: pos (0, 0) — size 583×68 — sprite `UI/Sprites/23 (2) Golds Chest/23 (2) Golds Chest-assets/Arrival Chest_Line2.png`
+- **Canvas/Events Panel/Safe Area/Gold Chest Panel/Shine BG/Fill BG/Text (Legacy)**: pos (0, 0) — size 252.6×68 — text "0/7 ARRIVAL"
+- **Canvas/Events Panel/Safe Area/Gold Chest Panel/Shine BG/Image (1)/Image**: pos (0, 25) — size 74×72 — sprite `UI/Sprites/23 (2) Golds Chest/23 (2) Golds Chest-assets/Card6_ic.png`
+- **Canvas/Events Panel/Safe Area/Gold Chest Panel/Shine BG/Image (1)/Text (Legacy)**: pos (-0.4, -68.3) — size 147.3×39.4 — text "x15k"
+- **Canvas/Events Panel/Safe Area/Gold Chest Panel/Shine BG/Image/Image**: pos (0, 25) — size 138×66 — sprite `UI/Sprites/23 (2) Golds Chest/23 (2) Golds Chest-assets/Card 1 image.png`
+- **Canvas/Events Panel/Safe Area/Gold Chest Panel/Shine BG/Image/Text (Legacy)**: pos (0.5, -67.6) — size 146.7×38.8 — text "x1"
+- **Canvas/Events Panel/Safe Area/Gold Chest Panel/Shine BG/Info Btn/Text (Legacy)**: pos (85, 0) — size 103.8×68 — text "RULES"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View**: pos (0, 0) — size 892×917.9 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Arrival Chest Btn**: pos (0, 0) — size 969×258 — sprite `UI/Sprites/23 Events/23 Events-assets/Arrival Chest.png`
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Daily Reward Btn**: pos (0, 0) — size 969×258 — sprite `UI/Sprites/23 Events/23 Events-assets/Daily Reward.png`
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Daily Task Btn**: pos (0, 0) — size 969×258 — sprite `UI/Sprites/23 Events/23 Events-assets/Daily Task.png`
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Free Rewards Btn**: pos (0, 0) — size 969×258 — sprite `UI/Sprites/23 Events/23 Events-assets/Golds Chest.png`
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Golds Chest**: pos (0, 0) — size 969×258 — sprite `UI/Sprites/23 Events/23 Events-assets/Golds Chest.png`
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Level Reward Btn**: pos (0, 0) — size 969×258 — sprite `UI/Sprites/23 Events/23 Events-assets/Level  Reward.png`
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/VIP Subscription**: pos (0, 0) — size 969×258 — sprite `UI/Sprites/23 Events/23 Events-assets/VIP Subscription.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Profile Frame Btn/Selected BG**: pos (0, 0) — size 446×97 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Profile Frame_Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Profile Frame Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Profile Frame"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Profile Photo Btn/Selected BG**: pos (0, 0) — size 446×97 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Profile Frame_Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Profile Photo Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Profile Photo"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Section/Coin Btn**: pos (279, 0) — size 243×110 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Coin_button.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Section/Frame BG Btn**: pos (-314, 0) — size 142×141 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Fram1.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Profile Frame Btn/Selected BG**: pos (0, 0) — size 446×97 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Profile Frame_Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Profile Frame Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Profile Frame"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Profile Photo Btn/Selected BG**: pos (0, 0) — size 446×97 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Profile Frame_Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Profile Photo Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Profile Photo"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Section/Coin Btn**: pos (279, 0) — size 276×110 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Upload_button.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Section/Frame BG Btn**: pos (-314, 0) — size 142×141 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Fram1.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/Gem Btn/Image/Text (Legacy)**: pos (107.2, 0) — size 129.8×53 — text "20"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/Upgrade Chest Btn/Image/Text (Legacy)**: pos (118.2, 3.0) — size 160×73.1 — text "UPGRADE CHESTS"
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Chest Right BG/Image**: pos (-32, 0) — size 87×70 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Chest 1.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Coin Left BG/Image**: pos (-67.3, 0) — size 62×60 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Coin.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Coing Right BG/Image**: pos (-32, 0) — size 62×60 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Coin.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Fill BG/Filler 1**: pos (0, -290) — size 91×119 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/FiILBottom 1.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Fill BG/Filler 2**: pos (0, -171) — size 91×119 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/CantarFill.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Fill BG/Filler 3**: pos (0, -52) — size 91×119 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/CantarFill.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Fill BG/Filler 4**: pos (0, 67) — size 91×119 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/CantarFill.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Fill BG/Filler 5**: pos (0, 186) — size 91×119 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/CantarFill.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Fill BG/Filler 6**: pos (0, 305) — size 91×119 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/FiILbox Top.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Gem Left BG/Image**: pos (-67.3, 0) — size 59×53 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Dimond.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Watch AD Btn/Image**: pos (-102.3, 0) — size 50×50 — sprite `UI/Sprites/23 (1) Free Rewards/23 (1) Free Rewards-assets/Watch ad_ic.png`
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Watch AD Btn/Text (Legacy)**: pos (33.8, 0) — size 160×104 — text "WATCH AD"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Arrival Chest Btn/Image**: pos (228, -40) — size 426×68 — sprite `UI/Sprites/23 Events/23 Events-assets/Arrival Chest_Line1.png`
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Arrival Chest Btn/Text (Legacy)**: pos (231, 50) — size 380.6×63.0 — text "Arrival Chest"
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Daily Reward Btn/Text (Legacy)**: pos (231, 0) — size 380.6×63.0 — text "Daily Reward"
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Daily Task Btn/Text (Legacy)**: pos (231, 0) — size 380.6×63.0 — text "Daily Task"
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Free Rewards Btn/Text (Legacy)**: pos (231, 0) — size 380.6×63.0 — text "Free Rewards"
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Golds Chest/Collect Btn**: pos (230.5, -42) — size 225×95 — sprite `UI/Sprites/23 Events/23 Events-assets/Collect Button.png`
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Golds Chest/Text (Legacy)**: pos (231, 50) — size 380.6×63.0 — text "Golds Chest"
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Level Reward Btn/Text (Legacy)**: pos (231, 0) — size 380.6×63.0 — text "Level Reward"
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/VIP Subscription/Subscribe Btn**: pos (230.5, -50) — size 289×94 — sprite `UI/Sprites/23 Events/23 Events-assets/Subscribe for a month 33.99 1.png`
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/VIP Subscription/Text (Legacy)**: pos (213, 50) — size 468.2×63.0 — text "VIP Subscription"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Profile Frame Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Profile Frame"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Profile Photo Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Profile Photo"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Section/Coin Btn/Coin**: pos (-64.9, 0) — size 65×64 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Coin.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Section/Frame BG Btn/Clock BG**: pos (108.9, -48.1) — size 36×35 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Clock.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Section/Frame BG Btn/Pic BG**: pos (0, 0) — size 90×91 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Profile.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Section/Frame BG Btn/Player Name Txt**: pos (275.9, 28) — size 364.8×83.0 — text "Exclusive for new Players"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Profile Frame Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Profile Frame"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Profile Photo Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Profile Photo"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Section/Coin Btn/Coin**: pos (-83.9, 0) — size 59×48 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Upload_ic.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Section/Frame BG Btn/Pic BG**: pos (0, 0) — size 90×91 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Profile.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Section/Frame BG Btn/Txt**: pos (251.7, -0.5) — size 316.3×140.0 — text "Select Your Profile Photo"
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Chest Right BG/Image/Text (Legacy)**: pos (99.2, 0) — size 103.4×70 — text "1X"
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Chest Right BG/Image/Text (Legacy) (1)**: pos (98.6, 0) — size 103.4×70 — text "1X"
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Coin Left BG/Image/Text (Legacy)**: pos (93.0, 0) — size 124.8×60 — text "700"
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Coing Right BG/Image/Text (Legacy)**: pos (92.1, 0) — size 116.6×60 — text "300"
+- **Canvas/Events Panel/Safe Area/Free Reward Chest Panel/BG/BG/Gem Left BG/Image/Text (Legacy)**: pos (93.0, 0) — size 124.8×53 — text "5"
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Arrival Chest Btn/Image/Text (Legacy)**: pos (0.0, 0) — size 426×68 — text "0/7 ARRIVAL"
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/Golds Chest/Collect Btn/Text (Legacy)**: pos (-0.0, 0) — size 225×95 — text "COLLECT"
+- **Canvas/Events Panel/Safe Area/Scroll View/Viewport/Content/VIP Subscription/Subscribe Btn/Text (Legacy)**: pos (-0.0, 0) — size 289×95 — text "$33.99 Subscribe for a month"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 1 Btn**: pos (75, -75) — size 150×150 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Fram1.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 1 Btn (1)**: pos (735, -75) — size 150×150 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Fram1.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 2 Btn**: pos (295, -75) — size 150×150 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Fram2.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 2 Btn (1)**: pos (75, -275) — size 150×150 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Fram2.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 3 Btn**: pos (515, -75) — size 150×150 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Fram3.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 3 Btn (1)**: pos (295, -275) — size 150×150 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Fram3.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Section/Coin Btn/Coin/Text (Legacy)**: pos (107.0, 0) — size 131.0×64 — text "15.0k"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Section/Frame BG Btn/Clock BG/Text (Legacy) (1)**: pos (185.3, 0) — size 310.6×35 — text "28days 23hrs"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (1)**: pos (75, -75) — size 150×150 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Prifle1.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (10)**: pos (295, -475) — size 150×150 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Profile10.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (11)**: pos (515, -475) — size 150×150 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Profile11.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (2)**: pos (295, -75) — size 150×150 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Profile2.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (3)**: pos (515, -75) — size 150×150 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Profile3.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (4)**: pos (735, -75) — size 150×150 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Profile4.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (5)**: pos (75, -275) — size 150×150 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Prifle5.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (6)**: pos (295, -275) — size 150×150 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Profile6.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (7)**: pos (515, -275) — size 150×150 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Profile7.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (8)**: pos (735, -275) — size 150×150 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Profile8.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (9)**: pos (75, -475) — size 150×150 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Prifle9.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Section/Coin Btn/Coin/Text (Legacy)**: pos (125.3, 0) — size 167.5×64 — text "UPLOAD"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (1)**: pos (437.5, -87) — size 831×174 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Card2 Line_bg.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (2)**: pos (437.5, -291) — size 831×174 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Card2 Line_bg.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (3)**: pos (437.5, -495) — size 831×174 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Card2 Line_bg.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (4)**: pos (437.5, -699) — size 831×174 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Card2 Line_bg.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (5)**: pos (437.5, -903) — size 831×174 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Card2 Line_bg.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (6)**: pos (437.5, -1107) — size 831×174 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Card2 Line_bg.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (7)**: pos (437.5, -1311) — size 831×174 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Card2 Line_bg.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (1)**: pos (437.5, -87) — size 831×174 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Card2 Line_bg.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (2)**: pos (437.5, -291) — size 831×174 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Card2 Line_bg.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (3)**: pos (437.5, -495) — size 831×174 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Card2 Line_bg.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (4)**: pos (437.5, -699) — size 831×174 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Card2 Line_bg.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (5)**: pos (437.5, -903) — size 831×174 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Card2 Line_bg.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 1 Btn (1)/Days Box BG**: pos (0, -84.4) — size 122×38 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Days_box.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 1 Btn (1)/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 1 Btn/Days Box BG**: pos (0, -84.4) — size 122×38 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Days_box.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 1 Btn/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 2 Btn (1)/Days Box BG**: pos (0, -84.4) — size 122×38 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Days_box.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 2 Btn (1)/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 2 Btn/Days Box BG**: pos (0, -84.4) — size 122×38 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Days_box.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 2 Btn/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 3 Btn (1)/Days Box BG**: pos (0, -84.4) — size 122×38 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Days_box.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 3 Btn (1)/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 3 Btn/Days Box BG**: pos (0, -84.4) — size 122×38 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Days_box.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 3 Btn/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (6) Basic Info/23 (6) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (1)/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (10)/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (11)/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (2)/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (3)/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (4)/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (5)/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (6)/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (7)/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (8)/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Photo BG/Scroll View/Viewport/Content/Profile Btn (9)/Selected BG**: pos (47.5, 50.5) — size 55×49 — sprite `UI/Sprites/23 (7) Basic Info/23 (7) Basic Info-assets/Selected.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Chest BG**: pos (-307, 0) — size 124×108 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chest1.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Fill BG**: pos (-40.8, -37) — size 351×45 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chat_Box_line1.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Go Btn**: pos (280, 0) — size 163×97 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/go_button.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Name Txt**: pos (-40.8, 27.2) — size 351×54.5 — text "Open Malik Chat"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Chest BG**: pos (-307, 0) — size 129×104 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chest2.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Fill BG**: pos (-40.8, -37) — size 351×45 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chat_Box_line1.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Go Btn**: pos (280, 0) — size 163×97 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/go_button.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Name Txt**: pos (-40.8, 27.2) — size 351×54.5 — text "Kill 2 Tokens"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Chest BG**: pos (-307, 0) — size 129×104 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chest2.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Fill BG**: pos (-40.8, -37) — size 351×45 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chat_Box_line1.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Go Btn**: pos (280, 0) — size 163×97 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/go_button.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Name Txt**: pos (-40.8, 27.2) — size 351×54.5 — text "Get 2 Golden Dices in Magic"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Chest BG**: pos (-307, 0) — size 120×103 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chest 3.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Fill BG**: pos (-40.8, -37) — size 351×45 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chat_Box_line1.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Go Btn**: pos (280, 0) — size 163×97 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/go_button.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Name Txt**: pos (-40.8, 27.2) — size 351×54.5 — text "Win 500 Golds"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Chest BG**: pos (-307, 0) — size 120×103 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chest 3.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Fill BG**: pos (-40.8, -37) — size 351×45 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chat_Box_line1.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Go Btn**: pos (280, 0) — size 163×97 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/go_button.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Name Txt**: pos (-40.8, 27.2) — size 351×54.5 — text "Enter 5 Rooms"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (6)/Chest BG**: pos (-307, 0) — size 120×103 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chest4.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (6)/Fill BG**: pos (-40.8, -37) — size 351×45 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chat_Box_line1.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (6)/Go Btn**: pos (280, 0) — size 163×97 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/go_button.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (6)/Name Txt**: pos (-40.8, 27.2) — size 351×54.5 — text "Stay on mic for 20 Mins"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (7)/Chest BG**: pos (-307, 0) — size 121×104 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chest5.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (7)/Fill BG**: pos (-40.8, -37) — size 351×45 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chat_Box_line1.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (7)/Go Btn**: pos (280, 0) — size 163×97 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/go_button.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (7)/Name Txt**: pos (-40.8, 27.2) — size 351×54.5 — text "Send 1 Gift"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Card BG**: pos (-179.1, -29) — size 70×85 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Card6bg.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Chest BG**: pos (-307, 0) — size 151×143 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Level_ic.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Collect Btn**: pos (280, 0) — size 197×97 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Collect_Un_Selected_button.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Name Txt**: pos (-38.6, 44.2) — size 351×54.5 — text "Reach Level 2"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Card BG**: pos (-179.1, -29) — size 70×85 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Card6bg.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Chest BG**: pos (-307, 0) — size 151×143 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Level_ic.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Collect Btn**: pos (280, 0) — size 197×97 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Collect_Un_Selected_button.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Name Txt**: pos (-38.6, 44.2) — size 351×54.5 — text "Reach Level 2"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Card BG**: pos (-179.1, -29) — size 70×85 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Card6bg.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Chest BG**: pos (-307, 0) — size 151×143 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Level_ic.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Collect Btn**: pos (280, 0) — size 197×97 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Collect_Un_Selected_button.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Name Txt**: pos (-38.6, 44.2) — size 351×54.5 — text "Reach Level 2"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Card BG**: pos (-179.1, -29) — size 70×85 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Card6bg.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Chest BG**: pos (-307, 0) — size 151×143 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Level_ic.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Collect Btn**: pos (280, 0) — size 197×97 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Collect_Un_Selected_button.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Name Txt**: pos (-38.6, 44.2) — size 351×54.5 — text "Reach Level 2"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Card BG**: pos (-179.1, -29) — size 70×85 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Card6bg.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Chest BG**: pos (-307, 0) — size 151×143 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Level_ic.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Collect Btn**: pos (280, 0) — size 197×97 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Collect_Un_Selected_button.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Name Txt**: pos (-38.6, 44.2) — size 351×54.5 — text "Reach Level 2"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 1 Btn (1)/Days Box BG/Text (Legacy)**: pos (0, 0) — size 122×38 — text "28Days"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 1 Btn/Days Box BG/Text (Legacy)**: pos (0, 0) — size 122×38 — text "28Days"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 2 Btn (1)/Days Box BG/Text (Legacy)**: pos (0, 0) — size 122×38 — text "28Days"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 2 Btn/Days Box BG/Text (Legacy)**: pos (0, 0) — size 122×38 — text "28Days"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 3 Btn (1)/Days Box BG/Text (Legacy)**: pos (0, 0) — size 122×38 — text "28Days"
+- **Canvas/Events Panel/Safe Area/Basic Info Panel/BG/Profile Frame BG/Scroll View/Viewport/Content/Frame 3 Btn/Days Box BG/Text (Legacy)**: pos (0, 0) — size 122×38 — text "28Days"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Fill BG/Filler BG**: pos (0, 0) — size 351×45 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chat_Box_line2.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Fill BG/Text (Legacy)**: pos (0, 0) — size 160×45 — text "0/1"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Go Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "GO"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Fill BG/Filler BG**: pos (0, 0) — size 351×45 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chat_Box_line2.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Fill BG/Text (Legacy)**: pos (0, 0) — size 160×45 — text "0/2"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Go Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "GO"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Fill BG/Filler BG**: pos (0, 0) — size 351×45 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chat_Box_line2.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Fill BG/Text (Legacy)**: pos (0, 0) — size 160×45 — text "0/2"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Go Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "GO"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Fill BG/Filler BG**: pos (0, 0) — size 351×45 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chat_Box_line2.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Fill BG/Text (Legacy)**: pos (0, 0) — size 160×45 — text "0/500"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Go Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "GO"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Fill BG/Filler BG**: pos (0, 0) — size 351×45 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chat_Box_line2.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Fill BG/Text (Legacy)**: pos (0, 0) — size 160×45 — text "0/5"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Go Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "GO"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (6)/Fill BG/Filler BG**: pos (0, 0) — size 351×45 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chat_Box_line2.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (6)/Fill BG/Text (Legacy)**: pos (0, 0) — size 160×45 — text "0/20"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (6)/Go Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "GO"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (7)/Fill BG/Filler BG**: pos (0, 0) — size 351×45 — sprite `UI/Sprites/23 (3) Daily Task-assets/23 (3) Daily Task-assets/Chat_Box_line2.png`
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (7)/Fill BG/Text (Legacy)**: pos (0, 0) — size 160×45 — text "0/1"
+- **Canvas/Events Panel/Safe Area/Daily Task Panel/BG/BG/Scroll View/Viewport/Content/BG (7)/Go Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "GO"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Card BG/Coin BG**: pos (0, 13.1) — size 41×40 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Card6_ic.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Chest BG/Text (Legacy)**: pos (0, 11) — size 72.1×67.8 — text "2"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Collect Btn/Selected Btn**: pos (0, 0) — size 197×97 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Collect_Selected_button.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Collect Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "COLLECT"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Card BG/Coin BG**: pos (0, 13.1) — size 41×40 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Card6_ic.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Chest BG/Text (Legacy)**: pos (0, 11) — size 72.1×67.8 — text "2"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Collect Btn/Selected Btn**: pos (0, 0) — size 197×97 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Collect_Selected_button.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Collect Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "COLLECT"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Card BG/Coin BG**: pos (0, 13.1) — size 41×40 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Card6_ic.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Chest BG/Text (Legacy)**: pos (0, 11) — size 72.1×67.8 — text "2"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Collect Btn/Selected Btn**: pos (0, 0) — size 197×97 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Collect_Selected_button.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Collect Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "COLLECT"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Card BG/Coin BG**: pos (0, 13.1) — size 41×40 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Card6_ic.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Chest BG/Text (Legacy)**: pos (0, 11) — size 72.1×67.8 — text "2"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Collect Btn/Selected Btn**: pos (0, 0) — size 197×97 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Collect_Selected_button.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Collect Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "COLLECT"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Card BG/Coin BG**: pos (0, 13.1) — size 41×40 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Card6_ic.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Chest BG/Text (Legacy)**: pos (0, 11) — size 72.1×67.8 — text "2"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Collect Btn/Selected Btn**: pos (0, 0) — size 197×97 — sprite `UI/Sprites/23 (5) Level Reward/23 (5) Level Reward-assets/Collect_Selected_button.png`
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Collect Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "COLLECT"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Card BG/Coin BG/Text (Legacy)**: pos (0, -33.3) — size 41×26.0 — text "500"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (1)/Collect Btn/Selected Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "COLLECT"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Card BG/Coin BG/Text (Legacy)**: pos (0, -33.3) — size 41×26.0 — text "1x"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (2)/Collect Btn/Selected Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "COLLECT"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Card BG/Coin BG/Text (Legacy)**: pos (0.3, -33.3) — size 58.4×26.0 — text "1000"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (3)/Collect Btn/Selected Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "COLLECT"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Card BG/Coin BG/Text (Legacy)**: pos (-0.2, -33.3) — size 59.9×26.0 — text "1500"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (4)/Collect Btn/Selected Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "COLLECT"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Card BG/Coin BG/Text (Legacy)**: pos (0.3, -33.3) — size 58.4×26.0 — text "2000"
+- **Canvas/Events Panel/Safe Area/Level Reward Panel/BG/BG/Scroll View/Viewport/Content/BG (5)/Collect Btn/Selected Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "COLLECT"

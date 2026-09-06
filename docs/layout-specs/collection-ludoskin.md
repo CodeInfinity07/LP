@@ -1,0 +1,106 @@
+# collection-ludoskin - layout reference
+
+Extracted from `Assets/Scenes/CollectionLudoSkinScene.unity`. Each line: hierarchy path, position (Unity anchored position, x/y in px from anchor), size (width×height), and its sprite image or text content.
+Position/size values are Unity coordinates - use as a reference for relative placement/proportions when laying out the equivalent Cocos node, not literal drop-in numbers (Cocos's coordinate system and anchoring differ).
+
+- **Canvas/Ludo Skin Panel**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/36 Collections-assets/36 Collections-assets/Bg.png`
+- **Canvas/Test BG**: pos (0, 0) — size 1080×1920 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice).png`
+- **Canvas/Ludo Skin Panel/Safe Area/Header BG**: pos (0, 0) — size 0×210 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Top Bg.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel**: pos (0, -140) — size 1000×1423.4 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel**: pos (0, -140) — size 1000×1423.4 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Tab Bar BG**: pos (0, 637) — size 1019×136 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Tab_Line.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel**: pos (0, -170) — size 1000×1480 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel**: pos (0, -140) — size 1000×1423.4 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/Header BG/Close Btn**: pos (440, 0) — size 94×108 — sprite `UI/Sprites/36 Collections-assets/36 Collections-assets/Close.png`
+- **Canvas/Ludo Skin Panel/Safe Area/Header BG/Diamond BG **: pos (0, 0) — size 230×87 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Dimond Bg.png`
+- **Canvas/Ludo Skin Panel/Safe Area/Header BG/Info Btn**: pos (-440, 0) — size 94×108 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Info.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Scrollbar Horizontal**: pos (0, 0) — size 0×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Scrollbar Vertical**: pos (0, 0) — size 20×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Viewport**: pos (0, 0) — size 0×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Tab Bar BG/Bubble Btn**: pos (127.5, 0) — size 255×136 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Bubble_Un_Selected 1.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Tab Bar BG/Dice Btn**: pos (-382, 0) — size 255×136 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Dice_Un_Selected 1.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Tab Bar BG/Theme Btn**: pos (382.5, 0) — size 255×136 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Theme_Un_Selected 1.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Tab Bar BG/Token Btn**: pos (-127.5, 0) — size 255×136 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Token_Un_Selected 1.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/Header BG/Diamond BG /Add Btn**: pos (30, 0) — size 63×63 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Puls.png`
+- **Canvas/Ludo Skin Panel/Safe Area/Header BG/Diamond BG /Diamond**: pos (-15, 0) — size 66×59 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Dimond.png`
+- **Canvas/Ludo Skin Panel/Safe Area/Header BG/Diamond BG /Text (Legacy)**: pos (10, 0) — size 139×87 — text "45.84k"
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Tab Bar BG/Bubble Btn/Selected BG**: pos (0, 0) — size 255×136 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Bubble_Selected 1.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Tab Bar BG/Dice Btn/Selected BG**: pos (0, 0) — size 255×136 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Dice_Selected 1.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Tab Bar BG/Theme Btn/Selected BG**: pos (0, 0) — size 255×136 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Theme_Selected 1.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Tab Bar BG/Token Btn/Selected BG**: pos (0, 0) — size 255×136 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Token_Selected 1.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (1)**: pos (110, -190) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (10)**: pos (360, -850) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (11)**: pos (610, -850) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (12)**: pos (860, -850) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (13)**: pos (110, -1180) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (14)**: pos (360, -1180) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (15)**: pos (610, -1180) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (16)**: pos (860, -1180) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (2)**: pos (360, -190) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (3)**: pos (610, -190) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (4)**: pos (860, -190) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (5)**: pos (110, -520) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (6)**: pos (360, -520) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (7)**: pos (610, -520) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (8)**: pos (860, -520) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Bubble Tab Scroll View Panel/Viewport/Content/Classic Btn (9)**: pos (110, -850) — size 220×280 — sprite `UI/Sprites/39 Collections (Bubble)/39 Collections (Bubble)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Viewport/Content/Classic Btn (1)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Viewport/Content/Classic Btn (10)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Viewport/Content/Classic Btn (11)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Viewport/Content/Classic Btn (2)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Viewport/Content/Classic Btn (3)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Viewport/Content/Classic Btn (4)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Viewport/Content/Classic Btn (5)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Viewport/Content/Classic Btn (6)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Viewport/Content/Classic Btn (7)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Viewport/Content/Classic Btn (8)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Dice Tab Scroll View Panel/Viewport/Content/Classic Btn (9)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/37 Collections (Dice)/37 Collections (Dice)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (1)**: pos (110, -215) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (10)**: pos (360, -935) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (11)**: pos (610, -935) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (12)**: pos (860, -935) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (13)**: pos (110, -1295) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (14)**: pos (360, -1295) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (15)**: pos (610, -1295) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (16)**: pos (860, -1295) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (2)**: pos (360, -215) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (3)**: pos (610, -215) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (4)**: pos (860, -215) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (5)**: pos (110, -575) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (6)**: pos (360, -575) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (7)**: pos (610, -575) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (8)**: pos (860, -575) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Theme Tab Scroll View Panel/Viewport/Content/Classic Btn (9)**: pos (110, -935) — size 220×330 — sprite `UI/Sprites/40 Collections (Theme)/40 Collections (Theme)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (1)**: pos (110, -190) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (10)**: pos (360, -850) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (11)**: pos (610, -850) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (12)**: pos (860, -850) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (13)**: pos (110, -1180) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (14)**: pos (360, -1180) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (15)**: pos (610, -1180) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (16)**: pos (860, -1180) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (2)**: pos (360, -190) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (3)**: pos (610, -190) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (4)**: pos (860, -190) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (5)**: pos (110, -520) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (6)**: pos (360, -520) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (7)**: pos (610, -520) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (8)**: pos (860, -520) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`
+- **Canvas/Ludo Skin Panel/Safe Area/BG/Token Tab Scroll View Panel/Viewport/Content/Classic Btn (9)**: pos (110, -850) — size 220×280 — sprite `UI/Sprites/38 Collections (Token)-assets/38 Collections (Token)-assets/Classic.png`

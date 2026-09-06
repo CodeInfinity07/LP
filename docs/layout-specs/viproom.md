@@ -1,0 +1,294 @@
+# viproom - layout reference
+
+Extracted from `Assets/Scenes/VIPRoomScene.unity`. Each line: hierarchy path, position (Unity anchored position, x/y in px from anchor), size (width×height), and its sprite image or text content.
+Position/size values are Unity coordinates - use as a reference for relative placement/proportions when laying out the equivalent Cocos node, not literal drop-in numbers (Cocos's coordinate system and anchoring differ).
+
+- **Canvas/Test BG**: pos (0, 0) — size 1080×1920 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06-Game-Mode-(Vip--Room).jpg`
+- **Canvas/VIPRoom Panel**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Footer BG**: pos (0, 0) — size 0×206 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Bottom baruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Header BG**: pos (0, 0) — size 0×210 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Top Bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View**: pos (0, -215) — size 1080×1504 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/VIPRoom Panel/Safe Area/Footer BG/Host Btn**: pos (0, 0) — size 287×121 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Hostuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Footer BG/Join Btn**: pos (350, 0) — size 287×121 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Joinuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Footer BG/Seat Btn**: pos (-350, 0) — size 287×121 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/SEATuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Header BG/Cross Btn**: pos (445, 0) — size 94×108 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Closeuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Header BG/Spectate Btn**: pos (-450, 0) — size 94×108 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Eysuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Header BG/Txt BG**: pos (0, 0) — size 344×74 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Ludo VIP.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size 0×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport**: pos (0, 0) — size 0×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG**: pos (0, 0) — size 982×357 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/card.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)**: pos (0, 0) — size 982×357 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/card.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)**: pos (0, 0) — size 982×357 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/card.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)**: pos (0, 0) — size 982×357 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/card.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)**: pos (0, 0) — size 982×357 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/card.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)**: pos (0, 0) — size 982×357 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/card.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)**: pos (0, 0) — size 982×357 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/card.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Bet BG**: pos (-314, 179) — size 225×73 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Bets Bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (1)**: pos (-380, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (2)**: pos (-210, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (3)**: pos (-50, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (4)**: pos (120, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Rank BG**: pos (0, 177) — size 294×73 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Rank bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Txt**: pos (350, 0) — size 180×123 — text "Master"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Bet BG**: pos (-314, 179) — size 225×73 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Bets Bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (1)**: pos (-380, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (2)**: pos (-210, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (3)**: pos (-50, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (4)**: pos (120, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Rank BG**: pos (0, 177) — size 294×73 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Rank bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Txt**: pos (350, 0) — size 180×123 — text "Arrow"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Bet BG**: pos (-314, 179) — size 225×73 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Bets Bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (1)**: pos (-380, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (2)**: pos (-210, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (3)**: pos (-50, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (4)**: pos (120, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Rank BG**: pos (0, 177) — size 294×73 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Rank bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Txt**: pos (350, 0) — size 180×123 — text "Classic"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Bet BG**: pos (-314, 179) — size 225×73 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Bets Bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (1)**: pos (-380, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (2)**: pos (-210, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (3)**: pos (-50, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (4)**: pos (120, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Rank BG**: pos (0, 177) — size 294×73 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Rank bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Txt**: pos (350, 0) — size 180×123 — text "Master"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Bet BG**: pos (-314, 179) — size 225×73 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Bets Bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (1)**: pos (-380, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (2)**: pos (-210, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (3)**: pos (-50, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (4)**: pos (120, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Rank BG**: pos (0, 177) — size 294×73 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Rank bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Txt**: pos (350, 0) — size 180×123 — text "Master"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Bet BG**: pos (-314, 179) — size 225×73 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Bets Bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (1)**: pos (-380, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (2)**: pos (-210, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (3)**: pos (-50, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (4)**: pos (120, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Rank BG**: pos (0, 177) — size 294×73 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Rank bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Txt**: pos (350, 0) — size 180×123 — text "Master"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Bet BG**: pos (-314, 179) — size 225×73 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Bets Bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (1)**: pos (-380, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (2)**: pos (-210, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (3)**: pos (-50, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (4)**: pos (120, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Add useruser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Rank BG**: pos (0, 177) — size 294×73 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Rank bguser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Txt**: pos (350, 0) — size 180×123 — text "Master"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Bet BG/Bets**: pos (-50.9, 0) — size 71.6×39.7 — text "Bets"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (1)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (1)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (2)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (2)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (3)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (3)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (4)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (4)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Rank BG/Rank**: pos (-69.3, 0) — size 94.6×39.7 — text "Rank1"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Watch BG/Spectate BG**: pos (300, 40) — size 62×42 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Viewuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Watch BG/Watch Btn**: pos (350, -50) — size 207×91 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Watch Buttonuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Bet BG/Bets**: pos (-50.9, 0) — size 71.6×39.7 — text "Bets"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (1)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (1)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (2)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (2)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (3)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (3)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (4)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (4)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Rank BG/Rank**: pos (-69.3, 0) — size 94.6×39.7 — text "Rank1"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Watch BG/Spectate BG**: pos (300, 40) — size 62×42 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Viewuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Watch BG/Watch Btn**: pos (350, -50) — size 207×91 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Watch Buttonuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Bet BG/Bets**: pos (-50.9, 0) — size 71.6×39.7 — text "Bets"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (1)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (1)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (2)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (2)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (3)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (3)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (4)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (4)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Rank BG/Rank**: pos (-69.3, 0) — size 94.6×39.7 — text "Rank1"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Watch BG/Spectate BG**: pos (300, 40) — size 62×42 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Viewuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Watch BG/Watch Btn**: pos (350, -50) — size 207×91 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Watch Buttonuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Bet BG/Bets**: pos (-50.9, 0) — size 71.6×39.7 — text "Bets"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (1)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (1)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (2)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (2)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (3)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (3)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (4)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (4)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Rank BG/Rank**: pos (-69.3, 0) — size 94.6×39.7 — text "Rank1"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Watch BG/Spectate BG**: pos (300, 40) — size 62×42 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Viewuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Watch BG/Watch Btn**: pos (350, -50) — size 207×91 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Watch Buttonuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Bet BG/Bets**: pos (-50.9, 0) — size 71.6×39.7 — text "Bets"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (1)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (1)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (2)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (2)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (3)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (3)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (4)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (4)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Rank BG/Rank**: pos (-69.3, 0) — size 94.6×39.7 — text "Rank1"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Watch BG/Spectate BG**: pos (300, 40) — size 62×42 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Viewuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Watch BG/Watch Btn**: pos (350, -50) — size 207×91 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Watch Buttonuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Bet BG/Bets**: pos (-50.9, 0) — size 71.6×39.7 — text "Bets"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (1)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (1)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (2)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (2)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (3)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (3)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (4)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (4)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Rank BG/Rank**: pos (-69.3, 0) — size 94.6×39.7 — text "Rank1"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Watch BG/Spectate BG**: pos (300, 40) — size 62×42 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Viewuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Watch BG/Watch Btn**: pos (350, -50) — size 207×91 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Watch Buttonuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Bet BG/Bets**: pos (-50.9, 0) — size 71.6×39.7 — text "Bets"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (1)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (1)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (2)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (2)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (3)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (3)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (4)/Default User BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (4)/Profile BG**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Profile Ringuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Rank BG/Rank**: pos (-69.3, 0) — size 94.6×39.7 — text "Rank1"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Watch BG/Spectate BG**: pos (300, 40) — size 62×42 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Viewuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Watch BG/Watch Btn**: pos (350, -50) — size 207×91 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/Watch Buttonuser.png.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Bet BG/Bets/Bets Txt**: pos (97.0, 0.0) — size 116.0×39.7 — text "1.0M"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (1)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (1)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (1)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (1)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (2)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (2)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (2)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (2)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (3)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (3)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (3)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (3)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (4)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (4)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (4)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Profile Btn (4)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Rank BG/Rank/Rank Txt**: pos (130.2, 0) — size 135.6×39.7 — text "285.0k"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (1)/Watch BG/Spectate BG/Txt**: pos (87.6, 0) — size 114.0×63.4 — text "541"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Bet BG/Bets/Bets Txt**: pos (97.0, 0.0) — size 116.0×39.7 — text "1.0M"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (1)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (1)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (1)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (1)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (2)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (2)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (2)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (2)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (3)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (3)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (3)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (3)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (4)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (4)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (4)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Profile Btn (4)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Rank BG/Rank/Rank Txt**: pos (130.2, 0) — size 135.6×39.7 — text "285.0k"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (2)/Watch BG/Spectate BG/Txt**: pos (87.6, 0) — size 114.0×63.4 — text "541"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Bet BG/Bets/Bets Txt**: pos (97.0, 0.0) — size 116.0×39.7 — text "1.0M"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (1)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (1)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (1)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (1)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (2)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (2)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (2)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (2)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (3)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (3)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (3)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (3)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (4)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (4)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (4)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Profile Btn (4)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Rank BG/Rank/Rank Txt**: pos (130.2, 0) — size 135.6×39.7 — text "285.0k"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (3)/Watch BG/Spectate BG/Txt**: pos (87.6, 0) — size 114.0×63.4 — text "541"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Bet BG/Bets/Bets Txt**: pos (97.0, 0.0) — size 116.0×39.7 — text "1.0M"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (1)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (1)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (1)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (1)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (2)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (2)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (2)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (2)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (3)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (3)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (3)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (3)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (4)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (4)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (4)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Profile Btn (4)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Rank BG/Rank/Rank Txt**: pos (130.2, 0) — size 135.6×39.7 — text "285.0k"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (4)/Watch BG/Spectate BG/Txt**: pos (87.6, 0) — size 114.0×63.4 — text "541"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Bet BG/Bets/Bets Txt**: pos (97.0, 0.0) — size 116.0×39.7 — text "1.0M"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (1)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (1)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (1)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (1)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (2)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (2)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (2)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (2)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (3)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (3)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (3)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (3)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (4)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (4)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (4)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Profile Btn (4)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Rank BG/Rank/Rank Txt**: pos (130.2, 0) — size 135.6×39.7 — text "285.0k"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (5)/Watch BG/Spectate BG/Txt**: pos (87.6, 0) — size 114.0×63.4 — text "541"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Bet BG/Bets/Bets Txt**: pos (97.0, 0.0) — size 116.0×39.7 — text "1.0M"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (1)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (1)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (1)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (1)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (2)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (2)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (2)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (2)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (3)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (3)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (3)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (3)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (4)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (4)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (4)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Profile Btn (4)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Rank BG/Rank/Rank Txt**: pos (130.2, 0) — size 135.6×39.7 — text "285.0k"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG (6)/Watch BG/Spectate BG/Txt**: pos (87.6, 0) — size 114.0×63.4 — text "541"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Bet BG/Bets/Bets Txt**: pos (97.0, 0.0) — size 116.0×39.7 — text "1.0M"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (1)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (1)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (1)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (1)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (2)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (2)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (2)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (2)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (3)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (3)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (3)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (3)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (4)/Default User BG/Pic bg**: pos (0, 0) — size 123×123 — sprite `UI/Sprites/06 Game Mode (Vip  Room)-assets/06 Game Mode (Vip  Room)-assets/default_user.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (4)/Default User BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "ABCZ"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (4)/Profile BG/Pic bg**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Profile Pic.png`
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Profile Btn (4)/Profile BG/Txt**: pos (0, -87.4) — size 123×43.1 — text "Alim"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Rank BG/Rank/Rank Txt**: pos (130.2, 0) — size 135.6×39.7 — text "285.0k"
+- **Canvas/VIPRoom Panel/Safe Area/Scroll View/Viewport/Content/Card BG/Watch BG/Spectate BG/Txt**: pos (87.6, 0) — size 114.0×63.4 — text "541"

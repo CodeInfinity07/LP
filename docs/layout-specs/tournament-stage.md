@@ -1,0 +1,57 @@
+# tournament-stage - layout reference
+
+Extracted from `Assets/Scenes/TournamentStageScene.unity`. Each line: hierarchy path, position (Unity anchored position, x/y in px from anchor), size (width×height), and its sprite image or text content.
+Position/size values are Unity coordinates - use as a reference for relative placement/proportions when laying out the equivalent Cocos node, not literal drop-in numbers (Cocos's coordinate system and anchoring differ).
+
+- **Canvas/Test BG**: pos (0, 0) — size 1080×1920 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage.png`
+- **Canvas/Tournament Stage Panel**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Bg.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View**: pos (0, -215) — size 1080×1600 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Tournament Stage Panel/Safe Area/Footer BG/Lock Btn**: pos (0, 0) — size 497×118 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Button lock button.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Header BG/Close Btn**: pos (450, 0) — size 94×108 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Close.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Header BG/Current Gold BG**: pos (0, 0) — size 533×105 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Current Golds 0_bg.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Header BG/Info Btn**: pos (-450, 0) — size 94×108 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Info.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Header BG/Prize Pool Winner BG**: pos (0, -90) — size 875×57 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/of prize pool for the winner_bg.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size 0×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport**: pos (0, 0) — size 0×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Tournament Stage Panel/Safe Area/Footer BG/Lock Btn/Unlock Level BG**: pos (0, 0) — size 497×118 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Button Unlock button.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Header BG/Current Gold BG/Current Gold Txt**: pos (-50, 0) — size 230×87 — text "Current Golds"
+- **Canvas/Tournament Stage Panel/Safe Area/Header BG/Current Gold BG/Gold Txt**: pos (156.3, 0) — size 182.6×87 — text "0"
+- **Canvas/Tournament Stage Panel/Safe Area/Header BG/Prize Pool Winner BG/Text (Legacy)**: pos (0, 0) — size 875×57 — text "25% OF PRIZE POOL FOR THE WINNER!"
+- **Canvas/Tournament Stage Panel/Safe Area/Footer BG/Lock Btn/Unlock Level BG/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Button"
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Arrow (1)**: pos (192, -513) — size 134×108 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/1.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Arrow (2)**: pos (8, -301) — size 205×78 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/2.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Arrow (3)**: pos (14, -135) — size 275×168 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/3.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Arrow (4)**: pos (0, 37) — size 336×76 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/4.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Arrow (5)**: pos (67, 234) — size 462×247 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/5.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Button (Legacy) (1)**: pos (65, -1245) — size 194×236 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Level 1.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Button (Legacy) (2)**: pos (317, -1052) — size 203×244 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Level 2.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Button (Legacy) (3)**: pos (-181, -976) — size 214×230 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Level 3.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Button (Legacy) (4)**: pos (393, -741) — size 222×276 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Level 4.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Button (Legacy) (5)**: pos (-263, -661) — size 236×293 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Level 5.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Button (Legacy) (6)**: pos (50, -197) — size 650×635 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Level 6.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Arrow (1)**: pos (192, -513) — size 134×108 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/1.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Arrow (2)**: pos (8, -301) — size 205×78 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/2.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Arrow (3)**: pos (14, -135) — size 275×168 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/3.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Arrow (4)**: pos (0, 37) — size 336×76 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/4.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Arrow (5)**: pos (67, 234) — size 462×247 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/5.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Button (Legacy) (1)**: pos (65, -1245) — size 194×236 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Level 1.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Button (Legacy) (2)**: pos (317, -1052) — size 203×244 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Level 2.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Button (Legacy) (3)**: pos (-181, -976) — size 214×230 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Level 3.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Button (Legacy) (4)**: pos (393, -741) — size 222×276 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Level 4.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Button (Legacy) (5)**: pos (-263, -661) — size 236×293 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Level 5.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Button (Legacy) (6)**: pos (50, -197) — size 650×635 — sprite `UI/Sprites/09 Trn Stage-assets/09 Trn Stage-assets/Level 6.png`
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Button (Legacy) (1)/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Button"
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Button (Legacy) (2)/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Button"
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Button (Legacy) (3)/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Button"
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Button (Legacy) (4)/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Button"
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Button (Legacy) (5)/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Button"
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (1)/Button (Legacy) (6)/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Button"
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Button (Legacy) (1)/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Button"
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Button (Legacy) (2)/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Button"
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Button (Legacy) (3)/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Button"
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Button (Legacy) (4)/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Button"
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Button (Legacy) (5)/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Button"
+- **Canvas/Tournament Stage Panel/Safe Area/Scroll View/Viewport/Content/BG (2)/Button (Legacy) (6)/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Button"

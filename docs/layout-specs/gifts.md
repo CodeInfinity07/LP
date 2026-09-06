@@ -1,0 +1,794 @@
+# gifts - layout reference
+
+Extracted from `Assets/Scenes/GiftsScene.unity`. Each line: hierarchy path, position (Unity anchored position, x/y in px from anchor), size (width×height), and its sprite image or text content.
+Position/size values are Unity coordinates - use as a reference for relative placement/proportions when laying out the equivalent Cocos node, not literal drop-in numbers (Cocos's coordinate system and anchoring differ).
+
+- **Canvas/Gifts Panel**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Bg.png`
+- **Canvas/Test BG**: pos (0, -188) — size 1080×1920 — sprite `UI/Sprites/31 Room Gifts-assets/31 Room Gifts.jpg`
+- **Canvas/Gifts Panel/Safe Area/Gift Received Daily Footer BG**: pos (0, 0) — size 0×195 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Received Weekly Footer BG**: pos (0, 0) — size 0×195 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Daily Footer BG**: pos (0, 0) — size 0×195 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Monthly Footer BG**: pos (0, 0) — size 0×195 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Weekly Footer BG**: pos (0, 0) — size 0×195 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserBG.png`
+- **Canvas/Gifts Panel/Safe Area/Git Received Monthly Footer BG**: pos (0, 0) — size 0×195 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserBG.png`
+- **Canvas/Gifts Panel/Safe Area/Header BG**: pos (0, 0) — size 0×210 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Top Bg.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Received Daily Footer BG/Gem BG**: pos (310, 0) — size 55×49 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserGemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Received Daily Footer BG/Pic Bg**: pos (-251, 0) — size 124×125 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserPic.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Received Daily Footer BG/Text (Legacy)**: pos (-446.5, 0) — size 187×195 — text "-"
+- **Canvas/Gifts Panel/Safe Area/Gift Received Weekly Footer BG/Gem BG**: pos (310, 0) — size 55×49 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserGemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Received Weekly Footer BG/Pic Bg**: pos (-251, 0) — size 124×125 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserPic.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Received Weekly Footer BG/Text (Legacy)**: pos (-446.5, 0) — size 187×195 — text "-"
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Daily Footer BG/Gem BG**: pos (310, 0) — size 55×49 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserGemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Daily Footer BG/Pic Bg**: pos (-251, 0) — size 124×125 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserPic.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Daily Footer BG/Text (Legacy)**: pos (-446.5, 0) — size 187×195 — text "-"
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Monthly Footer BG/Gem BG**: pos (310, 0) — size 55×49 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserGemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Monthly Footer BG/Pic Bg**: pos (-251, 0) — size 124×125 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserPic.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Monthly Footer BG/Text (Legacy)**: pos (-446.5, 0) — size 187×195 — text "-"
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Weekly Footer BG/Gem BG**: pos (310, 0) — size 55×49 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserGemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Weekly Footer BG/Pic Bg**: pos (-251, 0) — size 124×125 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserPic.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Weekly Footer BG/Text (Legacy)**: pos (-446.5, 0) — size 187×195 — text "-"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG**: pos (0, 769) — size 980×119 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/TabBarBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG**: pos (0, 769) — size 959×116 — sprite `UI/Sprites/26 Clubs List (My Clubs) Recently-assets/Assets/PageTabsBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG**: pos (0, 769) — size 980×119 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/TabBarBG.png`
+- **Canvas/Gifts Panel/Safe Area/Git Received Monthly Footer BG/Gem BG**: pos (310, 0) — size 55×49 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserGemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Git Received Monthly Footer BG/Pic Bg**: pos (-251, 0) — size 124×125 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserPic.png`
+- **Canvas/Gifts Panel/Safe Area/Git Received Monthly Footer BG/Text (Legacy)**: pos (-446.5, 0) — size 187×195 — text "-"
+- **Canvas/Gifts Panel/Safe Area/Header BG/Close Btn**: pos (450, 0) — size 94×108 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Close.png`
+- **Canvas/Gifts Panel/Safe Area/Header BG/Gifts Received Btn**: pos (215, 5) — size 215×150 — sprite `UI/Sprites/24 Clubs List (Explore)-assets/24 Clubs List (Explore)-assets/MyClubs.png`
+- **Canvas/Gifts Panel/Safe Area/Header BG/Gifts Room Btn**: pos (-215, 5) — size 215×150 — sprite `UI/Sprites/24 Clubs List (Explore)-assets/24 Clubs List (Explore)-assets/Explore.png`
+- **Canvas/Gifts Panel/Safe Area/Header BG/Gifts Sent Btn**: pos (0, 5) — size 215×150 — sprite `UI/Sprites/24 Clubs List (Explore)-assets/24 Clubs List (Explore)-assets/Hot.png`
+- **Canvas/Gifts Panel/Safe Area/Header BG/Info Btn**: pos (-450, 0) — size 95×108 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Info.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Received Daily Footer BG/Gem BG/Text (Legacy)**: pos (112.8, 0) — size 160×49 — text "0"
+- **Canvas/Gifts Panel/Safe Area/Gift Received Daily Footer BG/Pic Bg/Flag BG**: pos (101.4, -32.6) — size 62×42 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserPakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Received Daily Footer BG/Pic Bg/User Name Txt**: pos (232.5, 29.2) — size 324.2×58.4 — text "Jadwa Ebrahimi"
+- **Canvas/Gifts Panel/Safe Area/Gift Received Weekly Footer BG/Gem BG/Text (Legacy)**: pos (112.8, 0) — size 160×49 — text "0"
+- **Canvas/Gifts Panel/Safe Area/Gift Received Weekly Footer BG/Pic Bg/Flag BG**: pos (101.4, -32.6) — size 62×42 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserPakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Received Weekly Footer BG/Pic Bg/User Name Txt**: pos (232.5, 29.2) — size 324.2×58.4 — text "Jadwa Ebrahimi"
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Daily Footer BG/Gem BG/Text (Legacy)**: pos (112.8, 0) — size 160×49 — text "0"
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Daily Footer BG/Pic Bg/Flag BG**: pos (101.4, -32.6) — size 62×42 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserPakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Daily Footer BG/Pic Bg/User Name Txt**: pos (232.5, 29.2) — size 324.2×58.4 — text "Jadwa Ebrahimi"
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Monthly Footer BG/Gem BG/Text (Legacy)**: pos (112.8, 0) — size 160×49 — text "0"
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Monthly Footer BG/Pic Bg/Flag BG**: pos (101.4, -32.6) — size 62×42 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserPakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Monthly Footer BG/Pic Bg/User Name Txt**: pos (232.5, 29.2) — size 324.2×58.4 — text "Jadwa Ebrahimi"
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Weekly Footer BG/Gem BG/Text (Legacy)**: pos (112.8, 0) — size 160×49 — text "0"
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Weekly Footer BG/Pic Bg/Flag BG**: pos (101.4, -32.6) — size 62×42 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserPakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gift Sent Weekly Footer BG/Pic Bg/User Name Txt**: pos (232.5, 29.2) — size 324.2×58.4 — text "Jadwa Ebrahimi"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG**: pos (0, -533) — size 980×618 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfilesMainBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 1 Btn**: pos (0, 350) — size 322×582 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 2 Btn**: pos (-350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 3 Btn**: pos (350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader3.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG**: pos (0, -533) — size 980×618 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfilesMainBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 1 Btn**: pos (0, 350) — size 322×582 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 2 Btn**: pos (-350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 3 Btn**: pos (350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader3.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG/Daily Btn**: pos (-327, 0) — size 326×119 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/DailyTabBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG/Divider BG (1)**: pos (-163.8, 0) — size 8×116 — sprite `UI/Sprites/26 Clubs List (My Clubs) Recently-assets/Assets/PageTabsDivider.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG/Divider BG (3)**: pos (155.4, 0) — size 8×116 — sprite `UI/Sprites/26 Clubs List (My Clubs) Recently-assets/Assets/PageTabsDivider.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG/Monthly Btn**: pos (325, 0) — size 330×119 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/MonthlyTabBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG/Weekly Btn**: pos (0, 0) — size 324×119 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/WeeklyTabBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG**: pos (0, -533) — size 980×618 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfilesMainBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 1 Btn**: pos (0, 350) — size 322×582 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 2 Btn**: pos (-350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 3 Btn**: pos (350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader3.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG**: pos (0, -533) — size 980×618 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfilesMainBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 1 Btn**: pos (0, 350) — size 322×582 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 2 Btn**: pos (-350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 3 Btn**: pos (350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader3.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG**: pos (0, -533) — size 980×618 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfilesMainBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 1 Btn**: pos (0, 350) — size 322×582 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 2 Btn**: pos (-350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 3 Btn**: pos (350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader3.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG**: pos (0, -533) — size 980×618 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfilesMainBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 1 Btn**: pos (0, 350) — size 322×582 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 2 Btn**: pos (-350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 3 Btn**: pos (350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader3.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Daily Btn**: pos (-121, 0) — size 240×116 — sprite `UI/Sprites/27 Clubs List (My Clubs) Joined-assets/Assets/JoinedTab.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Divider BG (1)**: pos (-245, 0) — size 8×116 — sprite `UI/Sprites/26 Clubs List (My Clubs) Recently-assets/Assets/PageTabsDivider.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Divider BG (2)**: pos (-5.5, 0) — size 8×116 — sprite `UI/Sprites/26 Clubs List (My Clubs) Recently-assets/Assets/PageTabsDivider.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Divider BG (3)**: pos (234.9, 0) — size 8×116 — sprite `UI/Sprites/26 Clubs List (My Clubs) Recently-assets/Assets/PageTabsDivider.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Hourly Btn**: pos (-361, 0) — size 240×116 — sprite `UI/Sprites/26 Clubs List (My Clubs) Recently-assets/Assets/RecentTab.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Monthly Btn**: pos (359, 0) — size 240×116 — sprite `UI/Sprites/29 Clubs List (My Clubs) Friends-assets/Assets/FriendsTab.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Weekly Btn**: pos (119.0, 0) — size 240×116 — sprite `UI/Sprites/28 Clubs List (My Clubs) Following-assets/Assets/FollowingTab.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG**: pos (0, -533) — size 980×618 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfilesMainBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 1 Btn**: pos (0, 350) — size 322×582 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 2 Btn**: pos (-350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 3 Btn**: pos (350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader3.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG**: pos (0, -533) — size 980×618 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfilesMainBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 1 Btn**: pos (0, 350) — size 322×582 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 2 Btn**: pos (-350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 3 Btn**: pos (350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader3.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG**: pos (0, -533) — size 980×618 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfilesMainBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 1 Btn**: pos (0, 350) — size 322×582 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 2 Btn**: pos (-350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 3 Btn**: pos (350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader3.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG/Daily Btn**: pos (-327, 0) — size 326×119 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/DailyTabBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG/Divider BG (1)**: pos (-163.8, 0) — size 8×116 — sprite `UI/Sprites/26 Clubs List (My Clubs) Recently-assets/Assets/PageTabsDivider.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG/Divider BG (3)**: pos (155.4, 0) — size 8×116 — sprite `UI/Sprites/26 Clubs List (My Clubs) Recently-assets/Assets/PageTabsDivider.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG/Monthly Btn**: pos (325, 0) — size 330×119 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/MonthlyTabBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG/Weekly Btn**: pos (0, 0) — size 324×119 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/WeeklyTabBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG**: pos (0, -533) — size 980×618 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfilesMainBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 1 Btn**: pos (0, 350) — size 322×582 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 2 Btn**: pos (-350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 3 Btn**: pos (350, 100) — size 347×627 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Leader3.png`
+- **Canvas/Gifts Panel/Safe Area/Git Received Monthly Footer BG/Gem BG/Text (Legacy)**: pos (112.8, 0) — size 160×49 — text "0"
+- **Canvas/Gifts Panel/Safe Area/Git Received Monthly Footer BG/Pic Bg/Flag BG**: pos (101.4, -32.6) — size 62×42 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/UserPakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Git Received Monthly Footer BG/Pic Bg/User Name Txt**: pos (232.5, 29.2) — size 324.2×58.4 — text "Jadwa Ebrahimi"
+- **Canvas/Gifts Panel/Safe Area/Header BG/Gifts Received Btn/Selected BG**: pos (0, 0) — size 215×169 — sprite `UI/Sprites/24 Clubs List (Explore)-assets/24 Clubs List (Explore)-assets/topbar_highlight.png`
+- **Canvas/Gifts Panel/Safe Area/Header BG/Gifts Received Btn/Text (Legacy)**: pos (0, 0) — size 215×169 — text "Gifts Received"
+- **Canvas/Gifts Panel/Safe Area/Header BG/Gifts Room Btn/Selected BG**: pos (0, 0) — size 215×169 — sprite `UI/Sprites/24 Clubs List (Explore)-assets/24 Clubs List (Explore)-assets/topbar_highlight.png`
+- **Canvas/Gifts Panel/Safe Area/Header BG/Gifts Room Btn/Text (Legacy)**: pos (0, 0) — size 215×169 — text "Gifts Room"
+- **Canvas/Gifts Panel/Safe Area/Header BG/Gifts Sent Btn/Selected BG**: pos (0, 0) — size 215×169 — sprite `UI/Sprites/24 Clubs List (Explore)-assets/24 Clubs List (Explore)-assets/topbar_highlight.png`
+- **Canvas/Gifts Panel/Safe Area/Header BG/Gifts Sent Btn/Text (Legacy)**: pos (0, 0) — size 215×169 — text "Gifts Sent"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View**: pos (0, -17.5) — size 980×583 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 1 Btn/Flag BG**: pos (0, -150.8) — size 54×36 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/pakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 1 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 1 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 2 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/india.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 2 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 2 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 3 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 3 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 3 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View**: pos (0, -17.5) — size 980×583 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 1 Btn/Flag BG**: pos (0, -150.8) — size 54×36 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/pakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 1 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 1 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 2 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/india.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 2 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 2 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 3 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 3 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 3 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG/Daily Btn/Selected BG**: pos (0, 0) — size 326×119 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/DailySeletedBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG/Daily Btn/Text (Legacy)**: pos (0, 0) — size 240×116 — text "DAILY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG/Monthly Btn/Selected BG**: pos (0, 0) — size 330×119 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/MonthlySeletedBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG/Monthly Btn/Text (Legacy)**: pos (0, 0) — size 240×116 — text "MONTHLY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG/Weekly Btn/Selected BG**: pos (0, 0) — size 324×119 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/WeeklySeletedBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG/Weekly Btn/Text (Legacy)**: pos (0, 0) — size 240×116 — text "WEEKLY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View**: pos (0, -17.5) — size 980×583 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 1 Btn/Flag BG**: pos (0, -150.8) — size 54×36 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/pakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 1 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 1 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 2 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/india.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 2 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 2 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 3 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 3 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 3 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Bar BG**: pos (0, 305) — size 630×62 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top3BG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View**: pos (0, -17.5) — size 980×583 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 1 Btn/Flag BG**: pos (0, -150.8) — size 54×36 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/pakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 1 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 1 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 2 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/india.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 2 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 2 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 3 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 3 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 3 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Bar BG**: pos (0, 305) — size 630×62 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top3BG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View**: pos (0, -17.5) — size 980×583 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 1 Btn/Flag BG**: pos (0, -150.8) — size 54×36 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/pakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 1 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 1 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 2 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/india.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 2 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 2 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 3 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 3 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 3 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Bar BG**: pos (0, 305) — size 630×62 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top3BG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View**: pos (0, -17.5) — size 980×583 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 1 Btn/Flag BG**: pos (0, -150.8) — size 54×36 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/pakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 1 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 1 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 2 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/india.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 2 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 2 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 3 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 3 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 3 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Daily Btn/Selected BG**: pos (0, 0) — size 240×116 — sprite `UI/Sprites/27 Clubs List (My Clubs) Joined-assets/Assets/SelectedJoinedTab.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Daily Btn/Text (Legacy)**: pos (0, 0) — size 240×116 — text "DAILY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Hourly Btn/Selected BG**: pos (0, 0) — size 240×116 — sprite `UI/Sprites/26 Clubs List (My Clubs) Recently-assets/Assets/SelectedRecentTab.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Hourly Btn/Text (Legacy)**: pos (0, 0) — size 240×116 — text "HOURLY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Monthly Btn/Selected BG**: pos (0, 0) — size 240×116 — sprite `UI/Sprites/29 Clubs List (My Clubs) Friends-assets/Assets/SelectedFriendsTab.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Monthly Btn/Text (Legacy)**: pos (0, 0) — size 240×116 — text "MONTHLY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Weekly Btn/Selected BG**: pos (0, 0) — size 240×116 — sprite `UI/Sprites/28 Clubs List (My Clubs) Following-assets/Assets/FollowingTabSelected.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Weekly Btn/Text (Legacy)**: pos (0, 0) — size 240×116 — text "WEEKLY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Bar BG**: pos (0, 305) — size 630×62 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top3BG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View**: pos (0, -17.5) — size 980×583 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 1 Btn/Flag BG**: pos (0, -150.8) — size 54×36 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/pakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 1 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 1 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 2 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/india.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 2 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 2 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 3 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 3 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 3 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View**: pos (0, -17.5) — size 980×583 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 1 Btn/Flag BG**: pos (0, -150.8) — size 54×36 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/pakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 1 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 1 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 2 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/india.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 2 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 2 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 3 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 3 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 3 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View**: pos (0, -17.5) — size 980×583 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 1 Btn/Flag BG**: pos (0, -150.8) — size 54×36 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/pakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 1 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 1 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 2 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/india.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 2 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 2 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 3 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 3 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 3 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG/Daily Btn/Selected BG**: pos (0, 0) — size 326×119 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/DailySeletedBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG/Daily Btn/Text (Legacy)**: pos (0, 0) — size 240×116 — text "DAILY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG/Monthly Btn/Selected BG**: pos (0, 0) — size 330×119 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/MonthlySeletedBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG/Monthly Btn/Text (Legacy)**: pos (0, 0) — size 240×116 — text "MONTHLY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG/Weekly Btn/Selected BG**: pos (0, 0) — size 324×119 — sprite `UI/Sprites/32 Gifts Sent-assets/Assets/WeeklySeletedBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG/Weekly Btn/Text (Legacy)**: pos (0, 0) — size 240×116 — text "WEEKLY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View**: pos (0, -17.5) — size 980×583 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 1 Btn/Flag BG**: pos (0, -150.8) — size 54×36 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/pakistan.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 1 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 1 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 2 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/india.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 2 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 2 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 3 Btn/Flag BG**: pos (0, -150.8) — size 72×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 3 Btn/Frame BG**: pos (0, 100) — size 183×183 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Border2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 3 Btn/Gem BG**: pos (0, -86.9) — size 159×60 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemBG.png`
+- **Canvas/Gifts Panel/Safe Area/Header BG/Gifts Received Btn/Selected BG/Text (Legacy) (1)**: pos (0, 0) — size 215×169 — text "Gifts Received"
+- **Canvas/Gifts Panel/Safe Area/Header BG/Gifts Room Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 215×169 — text "Gifts Room"
+- **Canvas/Gifts Panel/Safe Area/Header BG/Gifts Sent Btn/Selected BG/Text (Legacy) (1)**: pos (0, 0) — size 215×169 — text "Gifts Sent"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 1 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 1 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 1 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 1 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 2 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 2 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 2 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 2 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 3 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 3 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 3 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/Leader 3 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 1 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 1 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 1 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 1 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 2 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 2 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 2 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 2 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 3 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 3 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 3 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/Leader 3 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG/Daily Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 240×116 — text "DAILY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG/Monthly Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 240×116 — text "MONTHLY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Tab BG/Weekly Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 240×116 — text "WEEKLY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 1 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 1 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 1 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 1 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 2 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 2 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 2 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 2 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 3 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 3 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 3 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/Leader 3 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Bar BG/Image (1)**: pos (103.6, 0) — size 47×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Bar BG/Image (2)**: pos (164.4, 0) — size 48×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Bar BG/Image (3)**: pos (226.8, 0) — size 48×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top3.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Bar BG/Text (Legacy)**: pos (-97.3, 0) — size 389.0×62 — text "Top 3 of Last hour >>"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 1 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 1 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 1 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 1 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 2 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 2 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 2 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 2 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 3 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 3 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 3 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/Leader 3 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Bar BG/Image (1)**: pos (103.6, 0) — size 47×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Bar BG/Image (2)**: pos (164.4, 0) — size 48×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Bar BG/Image (3)**: pos (226.8, 0) — size 48×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top3.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Bar BG/Text (Legacy)**: pos (-97.3, 0) — size 389.0×62 — text "Top 3 of Last hour >>"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size 0×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport**: pos (0, 0) — size 0×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 1 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 1 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 1 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 1 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 2 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 2 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 2 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 2 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 3 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 3 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 3 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/Leader 3 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Bar BG/Image (1)**: pos (103.6, 0) — size 47×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Bar BG/Image (2)**: pos (164.4, 0) — size 48×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Bar BG/Image (3)**: pos (226.8, 0) — size 48×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top3.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Bar BG/Text (Legacy)**: pos (-97.3, 0) — size 389.0×62 — text "Top 3 of Last hour >>"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 1 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 1 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 1 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 1 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 2 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 2 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 2 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 2 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 3 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 3 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 3 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/Leader 3 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Daily Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 240×116 — text "DAILY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Hourly Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 240×116 — text "HOURLY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Monthly Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 240×116 — text "MONTHLY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Tab BG/Weekly Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 240×116 — text "WEEKLY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Bar BG/Image (1)**: pos (103.6, 0) — size 47×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Bar BG/Image (2)**: pos (164.4, 0) — size 48×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Bar BG/Image (3)**: pos (226.8, 0) — size 48×48 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Top3.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Bar BG/Text (Legacy)**: pos (-97.3, 0) — size 389.0×62 — text "Top 3 of Last hour >>"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 1 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 1 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 1 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 1 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 2 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 2 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 2 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 2 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 3 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 3 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 3 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/Leader 3 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 1 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 1 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 1 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 1 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 2 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 2 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 2 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 2 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 3 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 3 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 3 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/Leader 3 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 1 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 1 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 1 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 1 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 2 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 2 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 2 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 2 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 3 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 3 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 3 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/Leader 3 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG/Daily Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 240×116 — text "DAILY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG/Monthly Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 240×116 — text "MONTHLY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Tab BG/Weekly Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 240×116 — text "WEEKLY"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size -17×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport**: pos (0, 0) — size -17×-17 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 1 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 1 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 1 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 1 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 2 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 2 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 2 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 2 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 3 Btn/Flag BG/Txt**: pos (0, -46.4) — size 107.2×41.5 — text "Euro"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 3 Btn/Frame BG/Pic**: pos (0, 0) — size 161×161 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Pic2.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 3 Btn/Gem BG/Gem**: pos (-50, 0) — size 36×33 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Gem1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/Leader 3 Btn/Gem BG/Text**: pos (16.8, 0) — size 97.5×30 — text "45.84k"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)**: pos (481.5, -84) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)**: pos (481.5, -262) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)**: pos (481.5, -440) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)**: pos (481.5, -618) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)**: pos (481.5, -796) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)**: pos (481.5, -84) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)**: pos (481.5, -262) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)**: pos (481.5, -440) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)**: pos (481.5, -618) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)**: pos (481.5, -796) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)**: pos (481.5, -84) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)**: pos (481.5, -262) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)**: pos (481.5, -440) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)**: pos (481.5, -618) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)**: pos (481.5, -796) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)**: pos (481.5, -84) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)**: pos (481.5, -262) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)**: pos (481.5, -440) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)**: pos (481.5, -618) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)**: pos (481.5, -796) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)**: pos (0, 0) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)**: pos (0, 0) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)**: pos (0, 0) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)**: pos (0, 0) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)**: pos (0, 0) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)**: pos (481.5, -84) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)**: pos (481.5, -262) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)**: pos (481.5, -440) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)**: pos (481.5, -618) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)**: pos (481.5, -796) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)**: pos (481.5, -84) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)**: pos (481.5, -262) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)**: pos (481.5, -440) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)**: pos (481.5, -618) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)**: pos (481.5, -796) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)**: pos (481.5, -84) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)**: pos (481.5, -262) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)**: pos (481.5, -440) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)**: pos (481.5, -618) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)**: pos (481.5, -796) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)**: pos (481.5, -84) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)**: pos (481.5, -262) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)**: pos (481.5, -440) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)**: pos (481.5, -618) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)**: pos (481.5, -796) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)**: pos (481.5, -84) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)**: pos (481.5, -262) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)**: pos (481.5, -440) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)**: pos (481.5, -618) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)**: pos (481.5, -796) — size 916×168 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/ProfileBGCombined.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG**: pos (-240, 0) — size 117×118 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/Profile1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Text (Legacy)**: pos (-382.2, 2.2) — size 115.6×138.9 — text "1"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Flag BG**: pos (104.3, -31.8) — size 58×40 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/egypt1.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG**: pos (487.2, 0) — size 51×46 — sprite `UI/Sprites/31 Room Gifts-assets/Assets/GemIcon.png`
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Text (Legacy)**: pos (253.8, 34.0) — size 360.8×50.0 — text "Ghashia Kaleel"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Received BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Hourly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Room BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Daily Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Monthly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (1)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (2)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (3)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (4)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"
+- **Canvas/Gifts Panel/Safe Area/Gifts Sent BG/Weekly Tab BG/BG/Scroll View/Viewport/Content/Profile Btn (5)/Pic BG/Gem BG/Text (Legacy)**: pos (107, 0) — size 160×46 — text "185.6K"

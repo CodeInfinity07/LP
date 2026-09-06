@@ -1,0 +1,112 @@
+# home - layout reference
+
+Extracted from `Assets/Scenes/HomeScene.unity`. Each line: hierarchy path, position (Unity anchored position, x/y in px from anchor), size (width×height), and its sprite image or text content.
+Position/size values are Unity coordinates - use as a reference for relative placement/proportions when laying out the equivalent Cocos node, not literal drop-in numbers (Cocos's coordinate system and anchoring differ).
+
+- **Canvas/MainMenu Panel**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Bg.png`
+- **Canvas/Test BG**: pos (0, 0) — size 1080×1920 — sprite `UI/Sprites/03 Home Screen/03-Front-Screen.jpg`
+- **Canvas Testing Buttons/MainMenu Panel/Safe Area/Back Btn**: pos (50, 0) — size 283.6×207.5 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas Testing Buttons/MainMenu Panel/Safe Area/Next Btn**: pos (-50, 0) — size 283.6×207.5 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/MainMenu Panel/Safe Area/Collection Btn**: pos (-30, -400) — size 163×176 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Collections_ic.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG**: pos (0, 0) — size 0×290 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Bottom Bar.png`
+- **Canvas/MainMenu Panel/Safe Area/Header BG**: pos (0, 0) — size 0×210 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Top Bg.png`
+- **Canvas/MainMenu Panel/Safe Area/Logo BG**: pos (0, -475) — size 784×406 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Titel.png`
+- **Canvas/MainMenu Panel/Safe Area/Position Btn**: pos (-30, -235) — size 486×134 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Ranl_bg.png`
+- **Canvas/MainMenu Panel/Safe Area/Season Btn**: pos (30, -400) — size 149×176 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Season_ic.png`
+- **Canvas/MainMenu Panel/Safe Area/Unlock Level Btn**: pos (30, -235) — size 492×134 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/League.png`
+- **Canvas Testing Buttons/MainMenu Panel/Safe Area/Back Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Back Button"
+- **Canvas Testing Buttons/MainMenu Panel/Safe Area/Next Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Next Button"
+- **Canvas/MainMenu Panel/Safe Area/Collection Btn/Circle BG**: pos (65.3, 67.5) — size 50×51 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Notificaion_circle.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Chest BG**: pos (430.8, -40) — size 94×94 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Clubs BG**: pos (216, -40) — size 94×94 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Events BG**: pos (-434.5, -40) — size 94×94 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Friends BG**: pos (-216.9, -40) — size 94×94 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Home BG**: pos (0, -40) — size 94×94 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg.png`
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Coin BG**: pos (-214, 0) — size 227×87 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Coin Bg.png`
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Diamond BG **: pos (99, 0) — size 230×87 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Dimond Bg.png`
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Profile Btn**: pos (-440.3, 0) — size 117×117 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Fram.png`
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Setting Btn**: pos (440, 0) — size 94×108 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/setting.png`
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Shop Btn**: pos (312, 0) — size 97×108 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Shop.png`
+- **Canvas/MainMenu Panel/Safe Area/Middle/Private Btn**: pos (0, -520) — size 287×237 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Private.png`
+- **Canvas/MainMenu Panel/Safe Area/Middle/Single Matches Btn**: pos (-240, -160) — size 436×388 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Sngle Matches.png`
+- **Canvas/MainMenu Panel/Safe Area/Middle/Team Btn**: pos (-330, -520) — size 287×237 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Team.png`
+- **Canvas/MainMenu Panel/Safe Area/Middle/Tournament Btn**: pos (240, -160) — size 436×388 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Tournament.png`
+- **Canvas/MainMenu Panel/Safe Area/Middle/VIP Room Btn**: pos (330, -520) — size 287×237 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Vip Room.png`
+- **Canvas/MainMenu Panel/Safe Area/Position Btn/Position BG**: pos (-9, -2) — size 144×110 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Rank_ic.png`
+- **Canvas/MainMenu Panel/Safe Area/Position Btn/Txt**: pos (20, 0) — size 223.0×137.8 — text "No.1000+"
+- **Canvas/MainMenu Panel/Safe Area/Season Btn/Circle BG**: pos (65.3, 67.5) — size 50×51 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Notificaion_circle.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG**: pos (0, 0) — size 971×1474 — sprite `UI/Sprites/35 Settings-assets/Assets/SettingBarCombinedBG.png`
+- **Canvas/MainMenu Panel/Safe Area/Unlock Level Btn/Lock BG**: pos (45, 0) — size 53×73 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Lock_ic.png`
+- **Canvas/MainMenu Panel/Safe Area/Unlock Level Btn/Txt**: pos (-20, 0) — size 263.0×134 — text "Unlock at LV5"
+- **Canvas/MainMenu Panel/Safe Area/Collection Btn/Circle BG/Text (Legacy)**: pos (0.0, 0) — size 50×51 — text "5"
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Chest BG/Chest Btn**: pos (0, 5) — size 81×63 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Chest.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Chest BG/Selected BG**: pos (0, 0) — size 181×181 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg_Selected Glow.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Chest BG/Text (Legacy)**: pos (0, -70) — size 110×40 — text "Chest"
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Clubs BG/Clubs Btn**: pos (0, 5) — size 83×81 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Clubs.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Clubs BG/Notification BG**: pos (65, 30) — size 64×50 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Notificaion_box.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Clubs BG/Selected BG**: pos (0, 0) — size 181×181 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg_Selected Glow.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Clubs BG/Text (Legacy)**: pos (0, -70) — size 110×40 — text "Clubs"
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Events BG/Events Btn**: pos (0, 5) — size 67×92 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Evants.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Events BG/Selected BG**: pos (0, 0) — size 181×181 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg_Selected Glow.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Events BG/Text (Legacy)**: pos (0, -70) — size 110×40 — text "Events"
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Friends BG/Friends Btn**: pos (0, 5) — size 84×70 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Friends.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Friends BG/Notification BG**: pos (65, 30) — size 64×50 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Notificaion_box.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Friends BG/Selected BG**: pos (0, 0) — size 181×181 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg_Selected Glow.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Friends BG/Text (Legacy)**: pos (0, -70) — size 110×40 — text "Friends"
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Home BG/Home Btn**: pos (0, 5) — size 84×75 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Home.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Home BG/Selected BG**: pos (0, 0) — size 181×181 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/bottom Button_bg_Selected Glow.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Home BG/Text (Legacy)**: pos (0, -70) — size 110×40 — text "Home"
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Coin BG/Add Btn**: pos (30, 0) — size 63×63 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Puls.png`
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Coin BG/Coin**: pos (-15, 0) — size 70×68 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Coin.png`
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Coin BG/Text (Legacy)**: pos (10, 0) — size 139×87 — text "72.24k"
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Diamond BG /Add Btn**: pos (30, 0) — size 63×63 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Puls.png`
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Diamond BG /Diamond**: pos (-15, 0) — size 66×59 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Dimond.png`
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Diamond BG /Text (Legacy)**: pos (10, 0) — size 139×87 — text "45.84k"
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Profile Btn/BG**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/UserProfileDP.png`
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Profile Btn/Offline BG**: pos (39.8, 54.4) — size 30×30 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Offline.png`
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Profile Btn/Online BG**: pos (39.8, 54.4) — size 30×30 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Online.png`
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Profile Btn/Text (TMP) (1)**: pos (0, 0) — size 200×50 — text "New Text" — font size 36
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Profile Btn/Text (TMP) (2)**: pos (0, 0) — size 200×50 — text "New Text" — font size 36
+- **Canvas/MainMenu Panel/Safe Area/Season Btn/Circle BG/Text (Legacy)**: pos (0.0, 0) — size 50×51 — text "5"
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Account Center Btn**: pos (229, -605) — size 398×111 — sprite `UI/Sprites/35 Settings-assets/Assets/AccCenterBG.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Button (Legacy)**: pos (-313, -692.3) — size 187×28 — sprite `UI/Sprites/35 Settings-assets/Assets/PrivacyPolicy.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Button (Legacy) (1)**: pos (281, -692.3) — size 224×28 — sprite `UI/Sprites/35 Settings-assets/Assets/TermsOfConditions.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Close Btn**: pos (373, 625) — size 116×133 — sprite `UI/Sprites/35 Settings-assets/Assets/Close.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Logout Btn**: pos (-221, -605) — size 398×111 — sprite `UI/Sprites/35 Settings-assets/Assets/LogoutBG.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG**: pos (0, -138) — size 847×724 — sprite `UI/Sprites/35 Settings-assets/Assets/OptionsBG.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Setting BG**: pos (0, 625) — size 305×78 — sprite `UI/Sprites/35 Settings-assets/Assets/Settings.png`
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Clubs BG/Notification BG/Text (Legacy)**: pos (0, 0) — size 80×79 — text "50"
+- **Canvas/MainMenu Panel/Safe Area/Footer BG/Friends BG/Notification BG/Text (Legacy)**: pos (0, 0) — size 80×79 — text "110"
+- **Canvas/MainMenu Panel/Safe Area/Header BG/Profile Btn/BG/Pic**: pos (0, 0) — size 99×99 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/UserProfileDP.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Account Center Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "ACCOUNT CENTER"
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Btn Section/Home Btn**: pos (-119, 0) — size 193×205 — sprite `UI/Sprites/35 Settings-assets/Assets/ButtonsBG.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Btn Section/Mail Btn**: pos (335, 0) — size 193×205 — sprite `UI/Sprites/35 Settings-assets/Assets/ButtonsBG.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Btn Section/Share Btn**: pos (105, 0) — size 193×205 — sprite `UI/Sprites/35 Settings-assets/Assets/ButtonsBG.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Btn Section/Support Btn**: pos (-343, 0) — size 193×205 — sprite `UI/Sprites/35 Settings-assets/Assets/ButtonsBG.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Button (Legacy) (1)/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Terms of Service"
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Button (Legacy)/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Privacy Policy"
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Logout Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "LOG OUT"
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Divider BG**: pos (0, 31) — size 722×3 — sprite `UI/Sprites/35 Settings-assets/Assets/Dash.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Language BG**: pos (-302, -60) — size 75×74 — sprite `UI/Sprites/35 Settings-assets/Assets/Language.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Music BG**: pos (-302, 105) — size 75×59 — sprite `UI/Sprites/35 Settings-assets/Assets/SoundIcon.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Privacy Settings Btn**: pos (0, -249) — size 722×143 — sprite `UI/Sprites/35 Settings-assets/Assets/PrivacyBG.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Sound BG**: pos (-302, 269) — size 75×59 — sprite `UI/Sprites/35 Settings-assets/Assets/SoundIcon.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Btn Section/Home Btn/Image**: pos (0, 38.4) — size 93×88 — sprite `UI/Sprites/35 Settings-assets/Assets/HomeIcon.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Btn Section/Mail Btn/Image**: pos (0, 38.4) — size 101×71 — sprite `UI/Sprites/35 Settings-assets/Assets/MailIcon.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Btn Section/Share Btn/Image**: pos (0, 38.4) — size 80×88 — sprite `UI/Sprites/35 Settings-assets/Assets/ShareIcon.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Btn Section/Support Btn/Image**: pos (0, 38.4) — size 88×88 — sprite `UI/Sprites/35 Settings-assets/Assets/SupportIcon.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Language BG/Button (Legacy)**: pos (520, 0) — size 275×96 — sprite `UI/Sprites/35 Settings-assets/Assets/LanguageBG.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Language BG/Language Txt**: pos (152.1, 0) — size 177.7×59 — text "Language"
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Music BG/Music Txt**: pos (122.2, 0) — size 160×59 — text "Music"
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Music BG/Off Btn**: pos (559, 0) — size 165×82 — sprite `UI/Sprites/35 Settings-assets/Assets/SwitchOFFButton.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Music BG/On Btn**: pos (559, 0) — size 165×82 — sprite `UI/Sprites/35 Settings-assets/Assets/SwitchONButton.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Privacy Settings Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "PRIVACY SETTINGS"
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Sound BG/Off Btn**: pos (559, 0) — size 165×82 — sprite `UI/Sprites/35 Settings-assets/Assets/SwitchOFFButton.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Sound BG/On Btn**: pos (559, 0) — size 165×82 — sprite `UI/Sprites/35 Settings-assets/Assets/SwitchONButton.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Sound BG/Sound Txt**: pos (122.2, 0) — size 160×59 — text "Sound"
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Btn Section/Home Btn/Image/Text (Legacy)**: pos (0, -79.7) — size 160×46.0 — text "Home"
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Btn Section/Mail Btn/Image/Text (Legacy)**: pos (0, -79.7) — size 160×46.0 — text "Mail"
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Btn Section/Share Btn/Image/Text (Legacy)**: pos (0, -79.7) — size 160×46.0 — text "Share"
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Btn Section/Support Btn/Image/Text (Legacy)**: pos (0, -79.7) — size 160×46.0 — text "Support"
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Language BG/Button (Legacy)/Image**: pos (91, 0) — size 50×49 — sprite `UI/Sprites/35 Settings-assets/Assets/LanguageEdit.png`
+- **Canvas/MainMenu Panel/Safe Area/Setting Panel/BG/Options BG/Language BG/Button (Legacy)/Text (Legacy)**: pos (-36.3, 0) — size 202.4×49 — text "English"

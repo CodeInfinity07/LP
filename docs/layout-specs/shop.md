@@ -1,0 +1,113 @@
+# shop - layout reference
+
+Extracted from `Assets/Scenes/ShopScene.unity`. Each line: hierarchy path, position (Unity anchored position, x/y in px from anchor), size (width×height), and its sprite image or text content.
+Position/size values are Unity coordinates - use as a reference for relative placement/proportions when laying out the equivalent Cocos node, not literal drop-in numbers (Cocos's coordinate system and anchoring differ).
+
+- **Canvas/Shop Panel**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Bg.png`
+- **Canvas/Test BG**: pos (0, 0) — size 1080×3971.0 — sprite `UI/Sprites/07 Shop-assets/07-Shop.jpg`
+- **Canvas/Shop Panel/Safe Area/Header BG**: pos (0, 0) — size 0×210 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Top Bg.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View**: pos (0, -215) — size 1080×1620 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Shop Panel/Safe Area/Header BG/Coin BG**: pos (-191, 0) — size 227×87 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Coin Bg.png`
+- **Canvas/Shop Panel/Safe Area/Header BG/Diamond BG**: pos (152, 0) — size 230×87 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Dimond Bg.png`
+- **Canvas/Shop Panel/Safe Area/Header BG/Home Btn**: pos (450, 0) — size 94×108 — sprite `UI/Sprites/08 Tournament-assets/08 Tournament-assets/Home.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size 0×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport**: pos (0, 0) — size 0×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Shop Panel/Safe Area/Header BG/Coin BG/Add Btn**: pos (30, 0) — size 63×63 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Puls.png`
+- **Canvas/Shop Panel/Safe Area/Header BG/Coin BG/Coin**: pos (-15, 0) — size 70×68 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Coin.png`
+- **Canvas/Shop Panel/Safe Area/Header BG/Coin BG/Total Coins TMP**: pos (10, 0) — size 135×87 — text "72.24k" — font size 40
+- **Canvas/Shop Panel/Safe Area/Header BG/Diamond BG/Add Btn**: pos (30, 0) — size 63×63 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Puls.png`
+- **Canvas/Shop Panel/Safe Area/Header BG/Diamond BG/Diamond**: pos (-15, 0) — size 66×59 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Dimond.png`
+- **Canvas/Shop Panel/Safe Area/Header BG/Diamond BG/Total Gems TMP**: pos (10, 0) — size 135×87 — text "45.84k" — font size 40
+- **Canvas/Shop Panel/Safe Area/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG**: pos (0, 0) — size 1002×474 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Card First Recharge.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/RO BG**: pos (0, 0) — size 691×148 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Robg.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View**: pos (0, 0) — size 1000×550 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (1)**: pos (-20, 110) — size 166×204 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Card 1bg.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (2)**: pos (180, 110) — size 166×204 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Card 2bg.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (3)**: pos (380, 110) — size 166×204 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Card3bg.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (4)**: pos (-20, -110) — size 166×204 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Card 4bg.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (5)**: pos (180, -110) — size 166×204 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Card5bg.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (6)**: pos (380, -110) — size 166×204 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Card6bg.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Chest BG**: pos (-300, 0) — size 367×281 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Chest.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Recharge Txt**: pos (0, -280) — size 966.2×65.4 — text "Recharge Any Amount to Get The Bonus Rewards."
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Txt BG**: pos (0, 300) — size 677×71 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/First Recharge Reward Name.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (1)**: pos (-330, 200) — size 302×411 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Diamonds 1.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (2)**: pos (0, 200) — size 302×411 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Diamonds 2.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (3)**: pos (330, 200) — size 302×411 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Diamonds 3.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (4)**: pos (-330, -250) — size 302×411 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Diamonds 4.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (5)**: pos (0, -250) — size 302×411 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Diamonds 5.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (6)**: pos (330, -250) — size 302×411 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Diamonds 6.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Txt BG**: pos (0, 500) — size 314×61 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Diamonds.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (1)**: pos (-330, 200) — size 302×411 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Coin 1.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (2)**: pos (0, 200) — size 302×411 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Coin 2.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (3)**: pos (330, 200) — size 302×411 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Coin 3.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (4)**: pos (-330, -250) — size 302×411 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Coin 4.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (5)**: pos (0, -250) — size 302×411 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Coin 5.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (6)**: pos (330, -250) — size 302×411 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Coin 6.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Txt BG**: pos (0, 500) — size 185×61 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Golds Name.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/RO BG/Crown BG**: pos (-300, 0) — size 183×213 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Ro.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/RO BG/Royal Txt**: pos (60, 0) — size 465.1×148 — text "Royal Level Current: 0 To Upgrade Still Need: 7000"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size 0×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View/Selected BG**: pos (-50, -241) — size 24×24 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Dot fill.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View/Txt BG**: pos (0, 350) — size 403×72 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Subscription.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View/Unselected BG**: pos (0, -241) — size 24×24 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Dotunfill.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View/Viewport**: pos (0, 0) — size 0×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (1)/Image**: pos (0, 22) — size 138×66 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Card 1 image.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (1)/Text (Legacy)**: pos (0, -70) — size 135×40 — text "x1"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (2)/Image**: pos (0, 22) — size 125×74 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Card 2_ic.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (2)/Text (Legacy)**: pos (0, -70) — size 135×40 — text "x1"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (3)/Image**: pos (0, 22) — size 124×101 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Card3_ic.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (3)/Text (Legacy)**: pos (0, -70) — size 135×40 — text "x1"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (4)/Image**: pos (0, 22) — size 111×115 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Card 4_ic.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (4)/Text (Legacy)**: pos (0, -70) — size 135×40 — text "x1"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (5)/Image**: pos (0, 22) — size 74×67 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Card 5_ic.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (5)/Text (Legacy)**: pos (0, -70) — size 135×40 — text "x150"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (6)/Image**: pos (0, 22) — size 74×72 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Card6_ic.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Card Frist Recharge BG/Button (Legacy) (6)/Text (Legacy)**: pos (0, -70) — size 135×40 — text "x15k"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (1)/Diamond BG (1)**: pos (-60, 170) — size 42×37 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Gams_Diamonds.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (1)/Text (Legacy) (1)**: pos (25, 170) — size 132.9×40 — text "400"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (1)/USD Txt (1)**: pos (0, -145) — size 260×70 — text "USD 0.99"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (2)/Diamond BG (2)**: pos (-60, 170) — size 42×37 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Gams_Diamonds.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (2)/Text (Legacy) (2)**: pos (25, 170) — size 132.9×40 — text "1800"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (2)/USD Txt (2)**: pos (0, -145) — size 260×70 — text "USD 3.99"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (3)/Diamond BG (3)**: pos (-60, 170) — size 42×37 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Gams_Diamonds.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (3)/Text (Legacy) (3)**: pos (25, 170) — size 132.9×40 — text "5000"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (3)/USD Txt (3)**: pos (0, -145) — size 260×70 — text "USD 9.99"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (4)/Diamond BG (4)**: pos (-60, 170) — size 42×37 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Gams_Diamonds.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (4)/Text (Legacy) (4)**: pos (25, 170) — size 132.9×40 — text "16.0k"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (4)/USD Txt (4)**: pos (0, -145) — size 260×70 — text "USD 29.99"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (5)/Diamond BG (5)**: pos (-60, 170) — size 42×37 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Gams_Diamonds.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (5)/Text (Legacy) (5)**: pos (25, 170) — size 132.9×40 — text "53.7k"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (5)/USD Txt (5)**: pos (0, -145) — size 260×70 — text "USD 99.99"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (6)/Diamond BG (6)**: pos (-60, 170) — size 42×37 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Gams_Diamonds.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (6)/Text (Legacy) (6)**: pos (25, 170) — size 132.9×40 — text "227.0k"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Diamonds BG/Button (Legacy) (6)/USD Txt (6)**: pos (0, -145) — size 260×70 — text "USD 299.99"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (1)/Coin BG (1)**: pos (-60, 170) — size 40×39 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Coin_Golds.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (1)/Text (Legacy) (1)**: pos (25, 170) — size 132.9×40 — text "33.0k"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (1)/USD Txt (1)**: pos (0, -145) — size 260×70 — text "USD 0.99"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (2)/Coin BG (2)**: pos (-60, 170) — size 40×39 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Coin_Golds.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (2)/Text (Legacy) (2)**: pos (25, 170) — size 132.9×40 — text "130.0k"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (2)/USD Txt (2)**: pos (0, -145) — size 260×70 — text "USD 2.99"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (3)/Coin BG (3)**: pos (-60, 170) — size 40×39 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Coin_Golds.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (3)/Text (Legacy) (3)**: pos (25, 170) — size 132.9×40 — text "670.0k"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (3)/USD Txt (3)**: pos (0, -145) — size 260×70 — text "USD 8.99"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (4)/Coin BG (4)**: pos (-60, 170) — size 40×39 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Coin_Golds.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (4)/Text (Legacy) (4)**: pos (25, 170) — size 132.9×40 — text "2.7M"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (4)/USD Txt (4)**: pos (0, -145) — size 260×70 — text "USD 18.99"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (5)/Coin BG (5)**: pos (-60, 170) — size 40×39 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Coin_Golds.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (5)/Text (Legacy) (5)**: pos (25, 170) — size 132.9×40 — text "7.7M"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (5)/USD Txt (5)**: pos (0, -145) — size 260×70 — text "USD 39.99"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (6)/Coin BG (6)**: pos (-60, 170) — size 40×39 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Coin_Golds.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (6)/Text (Legacy) (6)**: pos (25, 170) — size 132.9×40 — text "17.0M"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Gold BG/Button (Legacy) (6)/USD Txt (6)**: pos (0, -145) — size 260×70 — text "USD 69.99"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View/Viewport/Content/Subscription BG (1)**: pos (0, 0) — size 992×474 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Subscription 1 Full.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View/Viewport/Content/Subscription BG (2)**: pos (0, 0) — size 992×474 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Subscription 2 Full.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View/Viewport/Content/Subscription BG (1)/Button (Legacy)**: pos (-290, -155) — size 289×94 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Subscribe for a month 11.99.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View/Viewport/Content/Subscription BG (2)/Button (Legacy)**: pos (-290, -155) — size 289×94 — sprite `UI/Sprites/07 Shop-assets/07 Shop-assets/Subscribe for a month 11.99.png`
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View/Viewport/Content/Subscription BG (1)/Button (Legacy)/Text (Legacy) (1)**: pos (0, 0) — size 289×94 — text "$11.99 Subscribe for a month"
+- **Canvas/Shop Panel/Safe Area/Scroll View/Viewport/Content/Scroll View/Viewport/Content/Subscription BG (2)/Button (Legacy)/Text (Legacy) (2)**: pos (0, 0) — size 289×94 — text "$33.99 Subscribe for a month"

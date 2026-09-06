@@ -1,0 +1,217 @@
+# clubsmain - layout reference
+
+Extracted from `Assets/Scenes/ClubsMainScene.unity`. Each line: hierarchy path, position (Unity anchored position, x/y in px from anchor), size (width×height), and its sprite image or text content.
+Position/size values are Unity coordinates - use as a reference for relative placement/proportions when laying out the equivalent Cocos node, not literal drop-in numbers (Cocos's coordinate system and anchoring differ).
+
+- **Canvas/Clubs Main Panel**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubBG.png`
+- **Canvas/Test BG**: pos (0, -188) — size 1080.1×2290 — sprite `UI/Sprites/24 Clubs List (Explore)-assets/24.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Activity Btn**: pos (421, -218) — size 56×66 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/Activity.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View**: pos (0, -400) — size 1000×382.9 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View**: pos (0, 314.8) — size 1000×850.5 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Entered Room BG**: pos (-343, -140) — size 314×59 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/UserRoomEntryBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Message Btn**: pos (421, -435.7) — size 61×47 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/Message.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Music Btn**: pos (421, -555.1) — size 73×73 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/Music.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Pass Btn**: pos (421, -327) — size 65×45 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/Pass.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Schedule BG**: pos (387, -140) — size 151×55 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ScheduleBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Footer BG/Game Btn**: pos (277, 0) — size 100×100 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/Game.png`
+- **Canvas/Clubs Main Panel/Safe Area/Footer BG/Gift Btn**: pos (422, 0) — size 89×81 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/GiftIcon.png`
+- **Canvas/Clubs Main Panel/Safe Area/Footer BG/SaySomething BG**: pos (-102, 0) — size 579×101 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/SaySomethingBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Footer BG/Sound Btn**: pos (-464, 0) — size 101×101 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/Sound.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/BG Info Btn**: pos (-288, 0) — size 504×128 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/NewUserBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/Button (Legacy) (1)**: pos (399, -170) — size 108×108 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ProfileUserBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/Button (Legacy) (2)**: pos (263, -170) — size 108×108 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ProfilePic1.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/Button (Legacy) (3)**: pos (129, -170) — size 108×108 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ProfilePic2.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/Button (Legacy) (4)**: pos (-7, -170) — size 108×108 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ProfilePic3.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/Button (Legacy) (5)**: pos (-141, -170) — size 108×108 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ProfilePic4.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/Exit Btn**: pos (450, 0) — size 88×101 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/PowerButton.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/More Btn**: pos (330, 0) — size 88×101 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/More.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/User Btn**: pos (-421, -170) — size 238×128 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/UsersCountBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG**: pos (0, 0) — size 902×1549 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/ProfileMainBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Activity Btn/Text (Legacy)**: pos (0, -47.5) — size 100×30 — text "Activity"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Scrollbar Horizontal**: pos (0, 0) — size 0×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport**: pos (0, 0) — size 0×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Scrollbar Horizontal**: pos (0, 0) — size 0×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport**: pos (0, 0) — size 0×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Entered Room BG/Image**: pos (-130, 0) — size 35×35 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/facebook-reactions.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Entered Room BG/Text (Legacy)**: pos (9.3, 0) — size 243.7×32.5 — text "Entered the room"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Message Btn/Text (Legacy)**: pos (0, -47.5) — size 120.9×30 — text "Message"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Music Btn/Text (Legacy)**: pos (0, -47.5) — size 100×30 — text "Music"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Pass Btn/Text (Legacy)**: pos (0, -47.5) — size 100×30 — text "Pass"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Schedule BG/Calender BG**: pos (-50, 0) — size 37×41 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/schedule.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Schedule BG/Time Txt**: pos (18, 0) — size 100×41 — text "5136"
+- **Canvas/Clubs Main Panel/Safe Area/Footer BG/Gift Btn/Image**: pos (0, -23.5) — size 67×34 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/GiftNewBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Footer BG/SaySomething BG/Pen BG**: pos (-241, 0) — size 48×48 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/SaySomethingIcon.png`
+- **Canvas/Clubs Main Panel/Safe Area/Footer BG/SaySomething BG/Text (Legacy)**: pos (37.3, 0) — size 451.5×101 — text "Say Something"
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/BG Info Btn/Club Follow Heart Btn**: pos (180, 0) — size 100×100 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/HeartButton.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/BG Info Btn/Club Name Info (TMP)**: pos (-5, 20) — size 250×41 — text "New User Lounge" — font size 30.3
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/BG Info Btn/Club Name Txt**: pos (-5, 20) — size 250×41 — text "New User Lounge"
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/BG Info Btn/Frame BG**: pos (-190, 0) — size 94×94 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ProfileBorder.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/BG Info Btn/Likes Txt**: pos (-85, -24) — size 91.4×41 — text "Likes:"
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/BG Info Btn/Txt**: pos (41.0, -24) — size 158×41 — text "12.0k"
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/Button (Legacy) (1)/Image**: pos (0, 20) — size 35×43 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/User.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/User Btn/Arrow**: pos (85.0, 0) — size 29×38 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/arrow.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/User Btn/Image**: pos (-80, 0) — size 60×58 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/UserCountIcon.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/User Btn/Text (Legacy)**: pos (10, 0) — size 120.9×58 — text "1.1M"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Close Btn**: pos (449.7, 856) — size 88×101 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/Close.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Header BG**: pos (0, 692) — size 888×148 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/TabBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Footer BG/Gift Btn/Image/Text (Legacy)**: pos (0, 0) — size 0×0 — text "NEW"
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/BG Info Btn/Frame BG/Pic**: pos (0, 0) — size 86×86 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/Profile.png`
+- **Canvas/Clubs Main Panel/Safe Area/Header BG/Button (Legacy) (1)/Image/Text (Legacy)**: pos (0, -39.3) — size 80.1×34.1 — text "109"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Announcement BG**: pos (0, -175) — size 807×303 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/Announcement.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Badge BG**: pos (0, 331) — size 814×94 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/BadgeBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Follow Btn**: pos (-169, -414) — size 266×108 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/FollowBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Join Btn**: pos (153, -414) — size 266×108 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/JoinBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Member Club BG**: pos (0, 128) — size 807×231 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/MemberClubBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Mic Permission BG**: pos (0, 460) — size 814×94 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/MicPermissionBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Header BG/Members Btn**: pos (0, 0) — size 296×148 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/UnselectedMembersTabBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Header BG/Moments Btn**: pos (296, 0) — size 296×148 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/UnselectedMomentsTabBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Header BG/Profile Btn**: pos (-296, 0) — size 296×148 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/UnselectedProfileTabBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Profile Data Section/Bagde BG**: pos (154, -69) — size 85×81 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/4Badge.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Profile Data Section/Club Name (TMP)**: pos (111.2, 36) — size 300×39 — text "Jadwa Ebrahimi" — font size 32.5
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Profile Data Section/Frame BG**: pos (-267, -41) — size 242×242 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/ProfilePicBorder.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Profile Data Section/ID (TMP)**: pos (-359.5, 124) — size 51.3×40 — text "ID:" — font size 36
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Profile Data Section/Language BG**: pos (-16, -70) — size 170×73 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/LanguageBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (1)**: pos (0, 0) — size 104×104 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/MsgUserBorder.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (2)**: pos (0, 0) — size 104×104 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/MsgUserBorder.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (3)**: pos (0, 0) — size 104×104 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/MsgUserBorder.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (4)**: pos (0, 0) — size 104×104 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/MsgUserBorder.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (5)**: pos (0, 0) — size 104×104 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/MsgUserBorder.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (6)**: pos (0, 0) — size 104×104 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/MsgUserBorder.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (1)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (10)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (11)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (12)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (13)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (14)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (15)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (16)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (17)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (2)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (3)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (4)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (5)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (6)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (7)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (8)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (9)**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Announcement BG/Announement (TMP)**: pos (-3.4, -29.2) — size 759.1×210.9 — text "lkjsl;dflaskddjfksdakjlfhlkjsdahfkjhksjdhfkjhsdakjhfjkhasdjk" — font size 18
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Announcement BG/Heading Txt**: pos (-263, 122.3) — size 239.8×58.3 — text "Announcement"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Announcement BG/Text (Legacy) (6)**: pos (-3.4, -29.2) — size 759.1×210.9 — text "aojfajsdfjalksdjfjaldksjflkdsajlfjlsajdlfjasldjfljlsdjfljasd"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Badge BG/Image**: pos (-234, 0) — size 44×44 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/Badge InfoIcon.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Badge BG/Image (1)**: pos (348.3, 0) — size 86×82 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/Badge.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Badge BG/Text (Legacy) (2)**: pos (-314.2, 0) — size 96.1×94 — text "Badge"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Follow Btn/Image**: pos (-89, 0) — size 47×41 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/FollowIcon.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Join Btn/Image**: pos (-84, 0) — size 56×51 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/JoinIcon.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Member Club BG/Text (Legacy)**: pos (-283.6, 86.3) — size 239.8×58.3 — text "Member Club"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Member Club BG/Text (Legacy) (1)**: pos (-213, 0) — size 239.8×58.3 — text "Member"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Member Club BG/Text (Legacy) (2)**: pos (-213, -58.3) — size 239.8×58.3 — text "62980"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Member Club BG/Text (Legacy) (3)**: pos (216, 0) — size 239.8×58.3 — text "Club Name"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Member Club BG/Text (Legacy) (4)**: pos (216, -58.3) — size 239.8×58.3 — text "1002"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Mic Permission BG/Text (Legacy)**: pos (-100, 0) — size 524.5×94 — text "Mic Permission"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Mic Permission BG/Text (Legacy) (1)**: pos (282.8, 0) — size 248.4×94 — text "Members Only"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Header BG/Members Btn/Selected BG**: pos (0, 0) — size 296×148 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/SelectedMembersTabBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Header BG/Members Btn/Text (Legacy)**: pos (0, 0) — size 296×148 — text "Members"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Header BG/Moments Btn/Selected BG**: pos (0, 0) — size 296×148 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/SelectedMomentsTabBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Header BG/Moments Btn/Text (Legacy)**: pos (0, 0) — size 296×148 — text "Moments"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Header BG/Profile Btn/Selected BG**: pos (0, 0) — size 296×148 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/SelectedProfileTabBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Header BG/Profile Btn/Text (Legacy)**: pos (0, 0) — size 296×147.3 — text "Profile"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Profile Data Section/Bagde BG/Text (Legacy)**: pos (0, 6) — size 38.3×32.6 — text "4"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Profile Data Section/Flag BG/India BG**: pos (0, 0) — size 57×39 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/pakistan.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Profile Data Section/Flag BG/Pak BG**: pos (0, 0) — size 57×39 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/pakistan.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Profile Data Section/Frame BG/Pic BG**: pos (0, 0) — size 226×226 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/ProfilePicMain.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Profile Data Section/ID (TMP)/Club Code (TMP)**: pos (99.1, 0) — size 141.1×40 — text "1002" — font size 35.8
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Profile Data Section/ID (TMP)/Copy ID Btn**: pos (193.3, 0) — size 40×40 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/CopyIcon.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Profile Data Section/Language BG/Text (Legacy)**: pos (0, 0) — size 0×0 — text "English"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (1)/Chat BG**: pos (166, -23) — size 203×68 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (1)/Pic BG**: pos (0, 0) — size 94×94 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatProfilePic1.png.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (1)/User  Name Txt**: pos (146.2, 33.2) — size 160×30 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (2)/Chat BG**: pos (166, -23) — size 203×68 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (2)/Pic BG**: pos (0, 0) — size 94×94 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatProfilePic.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (2)/User  Name Txt**: pos (146.2, 33.2) — size 160×30 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (3)/Chat BG**: pos (166, -23) — size 203×68 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (3)/Pic BG**: pos (0, 0) — size 94×94 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatProfilePic1.png.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (3)/User  Name Txt**: pos (146.2, 33.2) — size 160×30 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (4)/Chat BG**: pos (166, -23) — size 203×68 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (4)/Pic BG**: pos (0, 0) — size 94×94 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatProfilePic.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (4)/User  Name Txt**: pos (146.2, 33.2) — size 160×30 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (5)/Chat BG**: pos (166, -23) — size 203×68 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (5)/Pic BG**: pos (0, 0) — size 94×94 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatProfilePic.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (5)/User  Name Txt**: pos (146.2, 33.2) — size 160×30 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (6)/Chat BG**: pos (166, -23) — size 203×68 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatBG.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (6)/Pic BG**: pos (0, 0) — size 94×94 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatProfilePic1.png.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (6)/User  Name Txt**: pos (146.2, 33.2) — size 160×30 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (1)/Gift Box BG**: pos (-56.3, -76.1) — size 29×27 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/giftbox.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (1)/Pic BG**: pos (0, 60) — size 94×94 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatProfilePic1.png.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (10)/Gift Box BG**: pos (-56.3, -76.1) — size 29×27 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/giftbox.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (10)/Pic BG**: pos (0, 60) — size 130×130 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersProfilePic2.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (11)/Gift Box BG**: pos (-56.3, -76.1) — size 29×27 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/giftbox.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (11)/Pic BG**: pos (0, 60) — size 94×94 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatProfilePic1.png.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (12)/Mic BG**: pos (0, 40) — size 131×130 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/Mic.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (13)/Gift Box BG**: pos (-56.3, -76.1) — size 29×27 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/giftbox.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (13)/Pic BG**: pos (0, 60) — size 130×130 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersProfilePic2.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (14)/Lock BG**: pos (0, 40) — size 131×130 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/Locked.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (15)/Gift Box BG**: pos (-56.3, -76.1) — size 29×27 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/giftbox.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (15)/Pic BG**: pos (0, 60) — size 130×130 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersProfilePic1.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (16)/Gift Box BG**: pos (-56.3, -76.1) — size 29×27 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/giftbox.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (16)/Pic BG**: pos (0, 60) — size 130×130 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersProfilePic1.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (17)/Gift Box BG**: pos (-56.3, -76.1) — size 29×27 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/giftbox.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (17)/Pic BG**: pos (0, 60) — size 130×130 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersProfilePic1.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (2)/Lock BG**: pos (0, 40) — size 131×130 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/Locked.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (3)/Mic BG**: pos (0, 40) — size 131×130 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/Mic.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (4)/Gift Box BG**: pos (-56.3, -76.1) — size 29×27 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/giftbox.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (4)/Pic BG**: pos (0, 60) — size 130×130 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersProfilePic1.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (5)/Gift Box BG**: pos (-56.3, -76.1) — size 29×27 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/giftbox.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (5)/Pic BG**: pos (0, 60) — size 130×130 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersProfilePic2.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (6)/Lock BG**: pos (0, 40) — size 131×130 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/Locked.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (7)/Gift Box BG**: pos (-56.3, -76.1) — size 29×27 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/giftbox.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (7)/Pic BG**: pos (0, 60) — size 130×130 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ClubUsersProfilePic1.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (8)/Gift Box BG**: pos (-56.3, -76.1) — size 29×27 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/giftbox.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (8)/Pic BG**: pos (0, 60) — size 94×94 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/ChatProfilePic1.png.png`
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (9)/Mic BG**: pos (0, 40) — size 131×130 — sprite `UI/Sprites/30 Clubs Main-assets/Assets/Mic.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Follow Btn/Image/Text (Legacy)**: pos (107, 0) — size 160×41 — text "FOLLOW"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Join Btn/Image/Image**: pos (82.5, -18) — size 35×33 — sprite `UI/Sprites/34 Clubs Info-assets/Profile Assets/Gem.png`
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Join Btn/Image/Text (Legacy)**: pos (113.7, 21.3) — size 165.1×39.1 — text "JOIN"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Detail Section/Join Btn/Image/Text (Legacy) (1)**: pos (149.4, -19.3) — size 94.6×39.1 — text "500"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Header BG/Members Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 296×148 — text "Members"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Header BG/Moments Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 296×154.6 — text "Moments"
+- **Canvas/Clubs Main Panel/Safe Area/Info Panel/BG/Header BG/Profile Btn/Selected BG/Text (Legacy)**: pos (0, 0) — size 296×148 — text "Profile"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (1)/Chat BG/Chat Txt**: pos (0, 0) — size 0×0 — text "Hi"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (2)/Chat BG/Chat Txt**: pos (0, 0) — size 0×0 — text "Hello"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (3)/Chat BG/Chat Txt**: pos (0, 0) — size 0×0 — text "Hi"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (4)/Chat BG/Chat Txt**: pos (0, 0) — size 0×0 — text "Hello"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (5)/Chat BG/Chat Txt**: pos (0, 0) — size 0×0 — text "Hello"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Chat Scroll View/Viewport/Content/Frame BG (6)/Chat BG/Chat Txt**: pos (0, 0) — size 0×0 — text "Hi"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (1)/Gift Box BG/Text (Legacy) (1)**: pos (77.6, 0) — size 117.5×27 — text "50.5k"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (1)/Pic BG/Text (Legacy)**: pos (0, -79.2) — size 160×56.8 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (10)/Gift Box BG/Text (Legacy) (1)**: pos (77.6, 0) — size 117.5×27 — text "50.5k"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (10)/Pic BG/Text (Legacy)**: pos (0, -79.2) — size 160×56.8 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (11)/Gift Box BG/Text (Legacy) (1)**: pos (77.6, 0) — size 117.5×27 — text "50.5k"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (11)/Pic BG/Text (Legacy)**: pos (0, -79.2) — size 160×56.8 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (12)/Mic BG/Text (Legacy)**: pos (0, -94.5) — size 160×56.8 — text "3"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (13)/Gift Box BG/Text (Legacy) (1)**: pos (77.6, 0) — size 117.5×27 — text "50.5k"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (13)/Pic BG/Text (Legacy)**: pos (0, -79.2) — size 160×56.8 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (14)/Lock BG/Text (Legacy)**: pos (0, -94.5) — size 160×56.8 — text "Locked"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (15)/Gift Box BG/Text (Legacy) (1)**: pos (77.6, 0) — size 117.5×27 — text "50.5k"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (15)/Pic BG/Text (Legacy)**: pos (0, -79.2) — size 160×56.8 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (16)/Gift Box BG/Text (Legacy) (1)**: pos (77.6, 0) — size 117.5×27 — text "50.5k"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (16)/Pic BG/Text (Legacy)**: pos (0, -79.2) — size 160×56.8 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (17)/Gift Box BG/Text (Legacy) (1)**: pos (77.6, 0) — size 117.5×27 — text "50.5k"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (17)/Pic BG/Text (Legacy)**: pos (0, -79.2) — size 160×56.8 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (2)/Lock BG/Text (Legacy)**: pos (0, -94.5) — size 160×56.8 — text "Locked"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (3)/Mic BG/Text (Legacy)**: pos (0, -94.5) — size 160×56.8 — text "3"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (4)/Gift Box BG/Text (Legacy) (1)**: pos (77.6, 0) — size 117.5×27 — text "50.5k"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (4)/Pic BG/Text (Legacy)**: pos (0, -79.2) — size 160×56.8 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (5)/Gift Box BG/Text (Legacy) (1)**: pos (77.6, 0) — size 117.5×27 — text "50.5k"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (5)/Pic BG/Text (Legacy)**: pos (0, -79.2) — size 160×56.8 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (6)/Lock BG/Text (Legacy)**: pos (0, -94.5) — size 160×56.8 — text "Locked"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (7)/Gift Box BG/Text (Legacy) (1)**: pos (77.6, 0) — size 117.5×27 — text "50.5k"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (7)/Pic BG/Text (Legacy)**: pos (0, -79.2) — size 160×56.8 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (8)/Gift Box BG/Text (Legacy) (1)**: pos (77.6, 0) — size 117.5×27 — text "50.5k"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (8)/Pic BG/Text (Legacy)**: pos (0, -79.2) — size 160×56.8 — text "Ghashia"
+- **Canvas/Clubs Main Panel/Safe Area/BG/Club Users Scroll View/Viewport/Content/Button (Legacy) (9)/Mic BG/Text (Legacy)**: pos (0, -94.5) — size 160×56.8 — text "3"

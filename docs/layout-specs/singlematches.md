@@ -1,0 +1,51 @@
+# singlematches - layout reference
+
+Extracted from `Assets/Scenes/SingleMatchesScene.unity`. Each line: hierarchy path, position (Unity anchored position, x/y in px from anchor), size (width×height), and its sprite image or text content.
+Position/size values are Unity coordinates - use as a reference for relative placement/proportions when laying out the equivalent Cocos node, not literal drop-in numbers (Cocos's coordinate system and anchoring differ).
+
+- **Canvas/GameMode Panel**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Bg.png`
+- **Canvas/Test BG**: pos (0, 0) — size 1080×1920 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04-Game-Mode-(Single-Matches) 1.jpg`
+- **Canvas/GameMode Panel/Safe Area/Header BG**: pos (0, 0) — size 0×210 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Top Bg.png`
+- **Canvas/GameMode Panel/Safe Area/Start Btn**: pos (0, 50) — size 382×119 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Start.png`
+- **Canvas/GameMode Panel/Safe Area/Header BG/Coin BG**: pos (-167, 0) — size 227×87 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Coin Bg.png`
+- **Canvas/GameMode Panel/Safe Area/Header BG/Diamond BG**: pos (151, 0) — size 230×87 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Dimond Bg.png`
+- **Canvas/GameMode Panel/Safe Area/Header BG/Home Btn**: pos (450, 0) — size 94×108 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Home.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/2 Player Btn**: pos (-240, -190) — size 435×388 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/2 Player Unselected.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/4 Player Btn**: pos (243, -190) — size 436×388 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/4 Player Unselected.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Choose Your Entry BG**: pos (0, -1371) — size 1000×544 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Choose Your Entry (Rules)bg.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Magic BG**: pos (0, -932) — size 1002×234 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Magic box.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Select Mode BG**: pos (0, -629) — size 1000×328 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Selected Mode Bg.png`
+- **Canvas/GameMode Panel/Safe Area/Header BG/Coin BG/Add Btn**: pos (30, 0) — size 63×63 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Puls.png`
+- **Canvas/GameMode Panel/Safe Area/Header BG/Coin BG/Coin**: pos (-15, 0) — size 70×68 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Coin.png`
+- **Canvas/GameMode Panel/Safe Area/Header BG/Coin BG/Total Coins TMP**: pos (10, 0) — size 135×87 — text "72.24k" — font size 40
+- **Canvas/GameMode Panel/Safe Area/Header BG/Diamond BG/Add Btn**: pos (30, 0) — size 63×63 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Puls.png`
+- **Canvas/GameMode Panel/Safe Area/Header BG/Diamond BG/Diamond**: pos (-15, 0) — size 66×59 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Dimond.png`
+- **Canvas/GameMode Panel/Safe Area/Header BG/Diamond BG/Total Gems TMP**: pos (10, 0) — size 135×87 — text "45.84k" — font size 40
+- **Canvas/GameMode Panel/Safe Area/Middle/2 Player Btn/Selected **: pos (0, 0) — size 435×388 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/2 Player Selected.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/4 Player Btn/Selected **: pos (0, 0) — size 435×388 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/4 Player Selected.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Choose Your Entry BG/choose your entry**: pos (0, 267) — size 511×74 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Choose Your Entry (Rules).png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Magic BG/Info Btn**: pos (340, 0) — size 51×51 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Magic Info.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Magic BG/Magic**: pos (0, 110) — size 196×74 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Magic.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Magic BG/Magic Dice BG**: pos (-119.3, 0) — size 152×90 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Magic Dics.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Magic BG/Tick Btn**: pos (-337.4, 0) — size 77×77 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Un Chack box.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Select Mode BG/Left Arrow Btn**: pos (-342.7, 0) — size 37×50 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Left Arrow.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Select Mode BG/Red Dice BG **: pos (-114, 0) — size 117×118 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Dies.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Select Mode BG/Right Arrow Btn**: pos (334, 0) — size 37×50 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Right Arrow.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Select Mode BG/select mode**: pos (0, 160) — size 311×74 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Select Mode.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/2 Player Btn/Selected /Tick**: pos (200, 180) — size 84×75 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Selected.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/4 Player Btn/Selected /Tick**: pos (200, 180) — size 84×75 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Selected.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Choose Your Entry BG/Slider/Background**: pos (0, 0) — size 0×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/GameMode Panel/Safe Area/Middle/Choose Your Entry BG/choose your entry/Info BG Btn**: pos (217.4, 0) — size 41×41 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/info.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Magic BG/Magic Dice BG/Text (Legacy)**: pos (200, 0) — size 223.1×53.9 — text "Magic Dice"
+- **Canvas/GameMode Panel/Safe Area/Middle/Magic BG/Tick Btn/Tick BG**: pos (-1, 0) — size 77×77 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Chack box.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Select Mode BG/Red Dice BG /Text (Legacy)**: pos (182.6, 0) — size 228.1×86.9 — text "Classic"
+- **Canvas/GameMode Panel/Safe Area/Middle/Select Mode BG/select mode/Info BG Btn**: pos (114.4, 0) — size 41×41 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/info.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Choose Your Entry BG/Slider/Fill Area/Fill**: pos (0, 0) — size 10×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/GameMode Panel/Safe Area/Middle/Choose Your Entry BG/Slider/Handle Slide Area/Handle**: pos (0, 25) — size 49×70 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Yellow.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Choose Your Entry BG/Slider/Handle Slide Area/Handle/Prize BG**: pos (0, 150) — size 230×149 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Prixe Box.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Choose Your Entry BG/Slider/Handle Slide Area/Handle/Prize BG/Entry Txt**: pos (-50, -6.8) — size 87.3×43.7 — text "Entry:"
+- **Canvas/GameMode Panel/Safe Area/Middle/Choose Your Entry BG/Slider/Handle Slide Area/Handle/Prize BG/Prize Txt**: pos (-50, 40.0) — size 83.8×41.3 — text "Prize:"
+- **Canvas/GameMode Panel/Safe Area/Middle/Choose Your Entry BG/Slider/Handle Slide Area/Handle/Prize BG/Entry Txt/Coin BG**: pos (63, -3.6) — size 32×30 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Prize Coin.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Choose Your Entry BG/Slider/Handle Slide Area/Handle/Prize BG/Prize Txt/Coin Bg**: pos (63, 0) — size 32×30 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Prize Coin.png`
+- **Canvas/GameMode Panel/Safe Area/Middle/Choose Your Entry BG/Slider/Handle Slide Area/Handle/Prize BG/Entry Txt/Coin BG/Entry Txt**: pos (56, 0) — size 79.3×37.8 — text "100"
+- **Canvas/GameMode Panel/Safe Area/Middle/Choose Your Entry BG/Slider/Handle Slide Area/Handle/Prize BG/Prize Txt/Coin Bg/Coin Txt**: pos (56, 0) — size 79.3×37.8 — text "500"

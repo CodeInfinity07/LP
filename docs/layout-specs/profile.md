@@ -1,0 +1,90 @@
+# profile - layout reference
+
+Extracted from `Assets/Scenes/ProfilePageScene.unity`. Each line: hierarchy path, position (Unity anchored position, x/y in px from anchor), size (width×height), and its sprite image or text content.
+Position/size values are Unity coordinates - use as a reference for relative placement/proportions when laying out the equivalent Cocos node, not literal drop-in numbers (Cocos's coordinate system and anchoring differ).
+
+- **Canvas/Profile Page Panel**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Bg.png`
+- **Canvas/Test BG**: pos (0, 0) — size 1080.4×2387 — sprite `UI/Sprites/10 Profile-assets/10 Profile.jpg`
+- **Canvas/Profile Page Panel/Safe Area/BG**: pos (0, -300) — size 996×1400 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Profile BG.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Edit Btn**: pos (400, 510) — size 76×87 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Edit icon.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Flag BG**: pos (-55, 302.8) — size 76×52 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/pakistan.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/ID BG**: pos (0, 404) — size 428×87 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/ID BG.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Level BG**: pos (0, 157) — size 904×102 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/LevelBG.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Pic**: pos (0, 700) — size 285×285 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/ProfileBorder.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View**: pos (0, -300) — size 996×782.7 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Profile Page Panel/Safe Area/BG/Theme Btn**: pos (-400, 510) — size 75×87 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Theme icon.png`
+- **Canvas/Profile Page Panel/Safe Area/Header BG/Close Btn**: pos (450, 0) — size 83×95 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Close.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Gender/FB Friends Count Txt**: pos (281, 305) — size 200×100 — text "New Text" — font size 49
+- **Canvas/Profile Page Panel/Safe Area/BG/Gender/Female Bg**: pos (0, 0) — size 41×65 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/female.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Gender/Male Bg**: pos (0, 0) — size 55×55 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/male.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Gender/User Gender Text (TMP)**: pos (156.8, 0) — size 200×100 — text "Gender" — font size 59.7
+- **Canvas/Profile Page Panel/Safe Area/BG/ID BG/Copy Btn**: pos (160, 0) — size 48×48 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/copy button.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/ID BG/FB ID Txt**: pos (1.5, 0) — size 251.3×50 — text "test" — font size 44.75
+- **Canvas/Profile Page Panel/Safe Area/BG/ID BG/ID**: pos (-160, 0) — size 50×87 — text "ID:"
+- **Canvas/Profile Page Panel/Safe Area/BG/ID BG/Profile Unique ID TMP**: pos (1.5, 0) — size 251.3×50 — text "test" — font size 41.65
+- **Canvas/Profile Page Panel/Safe Area/BG/Level BG/Level Txt**: pos (-387.8, 0) — size 89.2×50 — text "Level"
+- **Canvas/Profile Page Panel/Safe Area/BG/Pic/BG**: pos (0, 0) — size 260×260 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/UserProfileDP.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Pic/FB Pic Name Txt**: pos (0, -192) — size 400×80 — text "test" — font size 71.6
+- **Canvas/Profile Page Panel/Safe Area/BG/Pic/Profile Pic Name TMP**: pos (0, -192) — size 400×80 — text "test" — font size 66.65
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size 0×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport**: pos (0, 0) — size 0×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Profile Page Panel/Safe Area/BG/Level BG/Level Txt/Bar BG**: pos (589.9, 0) — size 439×52 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/LoadingFullBar.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Level BG/Level Txt/Gift Box BG**: pos (77.3, 0) — size 54×48 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/giftbox.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Pic/BG/Pic**: pos (0, 0) — size 260×260 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/UserProfileDP.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Level BG/Level Txt/Bar BG/BG**: pos (-238.5, 0) — size 87×83 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/4.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Level BG/Level Txt/Bar BG/Filler BG**: pos (0, 0) — size 439×52 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Filler Bar.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG**: pos (0, 0) — size 904×558 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/AcheivementsBG.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG**: pos (0, 0) — size 904×333 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/GameBG.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Social BG**: pos (0, 0) — size 904×333 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/GameBG.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Level BG/Level Txt/Bar BG/BG/Profile Level TMP**: pos (-0.0, 6.0) — size 42.4×36.2 — text "5" — font size 30.15
+- **Canvas/Profile Page Panel/Safe Area/BG/Level BG/Level Txt/Bar BG/BG/Text (Legacy)**: pos (0, 6) — size 42.4×36.2 — text "5"
+- **Canvas/Profile Page Panel/Safe Area/BG/Level BG/Level Txt/Bar BG/Filler BG/Text (Legacy)**: pos (0, 0) — size 86.5×52 — text "3/10"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Achievement Txt**: pos (-280.9, 246.6) — size 300.2×48.7 — text "ACHIEVEMENTS"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Badges Txt**: pos (-280.9, -11) — size 300.2×48.7 — text "Badges"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Divider BG**: pos (0, -102) — size 840×5 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/DashLine.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Gifts BG**: pos (-280.9, -197) — size 300.2×48.7 — text "Badges"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Royal Level Txt**: pos (-280.9, 155) — size 300.2×48.7 — text "Royal Level"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/Divider BG**: pos (0, 0) — size 840×5 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/DashLine.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/League Txt**: pos (-372.6, -89) — size 110.6×42.3 — text "League"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/Text (Legacy)**: pos (-362.1, 134.2) — size 131.4×54.8 — text "GAME"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/Total Txt**: pos (-384.9, 49.8) — size 85.9×42.3 — text "Total"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Social BG/Chat Room Txt**: pos (-344.8, 49.8) — size 166.0×42.3 — text "Chat Room"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Social BG/Divider BG**: pos (0, 0) — size 840×5 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/DashLine.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Social BG/Supported Room Txt**: pos (-298.6, -89) — size 258.5×42.3 — text "Supported Room"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Social BG/Text (Legacy)**: pos (-362.1, 134.2) — size 131.4×54.8 — text "SOCIAL"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Badges Txt/Arrow Btn**: pos (659, 0) — size 30×40 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/ArrowButon.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Badges Txt/Badges Btn (1)**: pos (293, 0) — size 90×90 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Badges.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Badges Txt/Badges Btn (2)**: pos (413, 0) — size 90×90 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Badges.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Badges Txt/Badges Btn (3)**: pos (533, 0) — size 90×90 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Badges.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Gifts BG/Arrow Btn**: pos (659, 0) — size 30×40 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/ArrowButon.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Gifts BG/Gift Btn (1)**: pos (181, 0) — size 90×90 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Gift.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Gifts BG/Gift Btn (2)**: pos (299, 0) — size 90×90 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Gift.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Gifts BG/Gift Btn (3)**: pos (421, 0) — size 90×90 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Gift.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Gifts BG/Gift Btn (4)**: pos (540, 0) — size 90×90 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Gift.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Royal Level Txt/Arrow Btn**: pos (659, 0) — size 30×40 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/ArrowButon.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Royal Level Txt/Crown Bg**: pos (515, 21) — size 102×53 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Crown.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/League Txt/Current Btn**: pos (323.6, 0) — size 90×90 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/CurrentIcon.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/League Txt/Highest Btn**: pos (609.9, 0) — size 90×90 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/CurrentIcon.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/Total Txt/Arrow Btn**: pos (765.9, 0) — size 30×40 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/ArrowButon.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/Total Txt/Overal Win Rate Txt**: pos (449.7, 0) — size 320.4×42.3 — text "Overal Win Rate Txt"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/Total Txt/Profile Total Games TMP**: pos (92.5, -0.6) — size 85.9×41.2 — text "2" — font size 34.3
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/Total Txt/Total Txt (1)**: pos (92.5, 0.0) — size 85.9×42.3 — text "2"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Social BG/Chat Room Txt/Arrow Btn**: pos (725.8, 0) — size 30×40 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/ArrowButon.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Social BG/Chat Room Txt/Create Btn**: pos (261.8, 0) — size 75×75 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Create.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Social BG/Chat Room Txt/Profile Btn**: pos (618.8, 0) — size 53×52 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/Users.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Social BG/Supported Room Txt/Arrow Btn**: pos (679.6, 0) — size 30×40 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/ArrowButon.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Social BG/Supported Room Txt/Setting Btn**: pos (615.6, 0) — size 56×56 — sprite `UI/Sprites/10 Profile-assets/10 Profile-assets/SettingsIcon.png`
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Royal Level Txt/Crown Bg/Royal Txt**: pos (-21.2, -42.9) — size 59.5×26.3 — text "Royal"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Achievements BG/Royal Level Txt/Crown Bg/Txt**: pos (30.9, -42.5) — size 40.2×27.0 — text "0"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/League Txt/Current Btn/Current League (TMP)**: pos (125.9, 0.0) — size 160×56.3 — text "Current" — font size 36
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/League Txt/Current Btn/Text (Legacy)**: pos (125.9, 0) — size 160×56.3 — text "Current"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/League Txt/Highest Btn/Highest League (TMP)**: pos (125.9, 0.0) — size 160×56.3 — text "Highest" — font size 36
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/League Txt/Highest Btn/Text (Legacy)**: pos (125.9, 0) — size 160×56.3 — text "Highest"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/Total Txt/Overal Win Rate Txt/Percentage (TMP)**: pos (210.4, 0.0) — size 85.9×42.3 — text "0.0%" — font size 35.25
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Game BG/Total Txt/Overal Win Rate Txt/Percentage Txt**: pos (210.4, 0) — size 85.9×42.3 — text "0.0%"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Social BG/Chat Room Txt/Create Btn/Create Txt**: pos (95.4, 0) — size 113.4×60.3 — text "Create"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Social BG/Chat Room Txt/Profile Btn/Txt**: pos (66.3, 0) — size 55.3×52 — text "0"
+- **Canvas/Profile Page Panel/Safe Area/BG/Scroll View/Viewport/Content/Social BG/Supported Room Txt/Setting Btn/Txt**: pos (-97.0, 0) — size 121.3×52 — text "Not Set"

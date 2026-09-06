@@ -1,0 +1,179 @@
+# leaderboard-friends - layout reference
+
+Extracted from `Assets/Scenes/LeaderboardFriendScene.unity`. Each line: hierarchy path, position (Unity anchored position, x/y in px from anchor), size (width×height), and its sprite image or text content.
+Position/size values are Unity coordinates - use as a reference for relative placement/proportions when laying out the equivalent Cocos node, not literal drop-in numbers (Cocos's coordinate system and anchoring differ).
+
+- **Canvas/Leaderboard Friends Panel**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Bg.png`
+- **Canvas/Test BG**: pos (0, 0) — size 1080×1920 — sprite `UI/Sprites/18 Leaderboard (Friends)/18 Leaderboard (Friends).png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/Add More Friend BG**: pos (0, -250) — size 984×160 — sprite `UI/Sprites/18 Leaderboard (Friends)/18 Leaderboard (Friends)-assets/Add More Friends_Bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG**: pos (0, -450) — size 984×1416 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/List_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/Footer BG**: pos (0, 0) — size 0×210 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Bottom Layout.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/Header BG**: pos (0, 0) — size 0×210 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Top Bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/Add More Friend BG/Add More Friends Btn**: pos (0, 0) — size 446×107 — sprite `UI/Sprites/18 Leaderboard (Friends)/18 Leaderboard (Friends)-assets/Add More Friends.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Earnings Txt**: pos (337.5, 660) — size 187.1×61 — text "Earnings"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Name Txt**: pos (-183, 660) — size 160×61 — text "Name"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Rank Txt**: pos (-373, 660) — size 160×61 — text "Rank"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View**: pos (0, 40) — size 1080×1173.8 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Leaderboard Friends Panel/Safe Area/Footer BG/Coin BG**: pos (348, 0) — size 57×56 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/CoinIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/Footer BG/Pic BG**: pos (-217, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/Footer BG/Text (Legacy)**: pos (-438.4, -0.1) — size 171.9×154.2 — text "---"
+- **Canvas/Leaderboard Friends Panel/Safe Area/Header BG/Close Btn**: pos (450, 0) — size 94×108 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Close.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/Header BG/Global BG**: pos (0, 0) — size 259×57 — sprite `UI/Sprites/18 Leaderboard (Friends)/18 Leaderboard (Friends)-assets/Friends.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/Header BG/Info Btn**: pos (-450, 0) — size 94×108 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Info.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size 0×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport**: pos (0, 0) — size 0×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Leaderboard Friends Panel/Safe Area/Footer BG/Coin BG/Text (Legacy)**: pos (100.5, 0) — size 139.8×56 — text "0"
+- **Canvas/Leaderboard Friends Panel/Safe Area/Footer BG/Pic BG/Text (Legacy)**: pos (216.1, -31.2) — size 247.3×62.5 — text "No League"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/1st Rank Badge Bg**: pos (-385, 0) — size 63×124 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/1stRankBadge.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Badge BG**: pos (-61.6, -36.3) — size 138×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Srar_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Coin BG**: pos (293.3, 0) — size 48×47 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/RankCoinIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Rank BG**: pos (95.7, -36.7) — size 150×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Badge BG**: pos (-61.6, -36.3) — size 138×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Srar_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Coin BG**: pos (293.3, 0) — size 48×47 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/RankCoinIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Rank BG**: pos (95.7, -36.7) — size 150×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Text (Legacy) (5)**: pos (-390, 0) — size 130×160 — text "10"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/2st Rank Badge Bg**: pos (-385, 0) — size 62×121 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/2ndRankBadge.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Badge BG**: pos (-61.6, -36.3) — size 138×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Srar_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Coin BG**: pos (293.3, 0) — size 48×47 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/RankCoinIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Rank BG**: pos (95.7, -36.7) — size 150×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/3st Rank Badge Bg**: pos (-385, 0) — size 60×117 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/3rdRankBadge.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Badge BG**: pos (-61.6, -36.3) — size 138×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Srar_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Coin BG**: pos (293.3, 0) — size 48×47 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/RankCoinIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Rank BG**: pos (95.7, -36.7) — size 150×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Badge BG**: pos (-61.6, -36.3) — size 138×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Srar_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Coin BG**: pos (293.3, 0) — size 48×47 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/RankCoinIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Rank BG**: pos (95.7, -36.7) — size 150×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Text (Legacy)**: pos (-390, 0) — size 130×160 — text "4"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Badge BG**: pos (-61.6, -36.3) — size 138×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Srar_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Coin BG**: pos (293.3, 0) — size 48×47 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/RankCoinIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Rank BG**: pos (95.7, -36.7) — size 150×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Text (Legacy)**: pos (-390, 0) — size 130×160 — text "5"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Badge BG**: pos (-61.6, -36.3) — size 138×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Srar_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Coin BG**: pos (293.3, 0) — size 48×47 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/RankCoinIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Rank BG**: pos (95.7, -36.7) — size 150×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Text (Legacy) (1)**: pos (-390, 0) — size 130×160 — text "6"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Badge BG**: pos (-61.6, -36.3) — size 138×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Srar_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Coin BG**: pos (293.3, 0) — size 48×47 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/RankCoinIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Rank BG**: pos (95.7, -36.7) — size 150×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Text (Legacy) (2)**: pos (-390, 0) — size 130×160 — text "7"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Badge BG**: pos (-61.6, -36.3) — size 138×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Srar_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Coin BG**: pos (293.3, 0) — size 48×47 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/RankCoinIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Rank BG**: pos (95.7, -36.7) — size 150×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Text (Legacy) (3)**: pos (-390, 0) — size 130×160 — text "8"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Badge BG**: pos (-61.6, -36.3) — size 138×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Srar_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Coin BG**: pos (293.3, 0) — size 48×47 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/RankCoinIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Rank BG**: pos (95.7, -36.7) — size 150×53 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge_bg.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Text (Legacy) (4)**: pos (-390, 0) — size 130×160 — text "9"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Badge BG/Badge BG**: pos (-70.2, 0) — size 65×61 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Badge BG/Star BG**: pos (-18.3, 0) — size 30×31 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/StarIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Badge BG/Txt**: pos (27.0, 0) — size 54.1×53 — text "841"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Coin BG/Coin Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Rank BG/Bronze Rank BG**: pos (-45, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Rank BG/Gold Rank BG**: pos (45, 0) — size 45×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/GoldRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Rank BG/Silver Rank BG**: pos (0, 0) — size 39×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/SilverRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Badge BG/Badge BG**: pos (-70.2, 0) — size 65×61 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Badge BG/Star BG**: pos (-18.3, 0) — size 30×31 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/StarIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Badge BG/Txt**: pos (27.0, 0) — size 54.1×53 — text "841"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Coin BG/Coin Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Rank BG/Bronze Rank BG**: pos (-45, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Rank BG/Gold Rank BG**: pos (45, 0) — size 45×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/GoldRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Rank BG/Silver Rank BG**: pos (0, 0) — size 39×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/SilverRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Badge BG/Badge BG**: pos (-70.2, 0) — size 65×61 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Badge BG/Star BG**: pos (-18.3, 0) — size 30×31 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/StarIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Badge BG/Txt**: pos (27.0, 0) — size 54.1×53 — text "841"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Coin BG/Coin Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Rank BG/Bronze Rank BG**: pos (-45, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Rank BG/Gold Rank BG**: pos (45, 0) — size 45×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/GoldRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Rank BG/Silver Rank BG**: pos (0, 0) — size 39×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/SilverRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Badge BG/Badge BG**: pos (-70.2, 0) — size 65×61 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Badge BG/Star BG**: pos (-18.3, 0) — size 30×31 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/StarIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Badge BG/Txt**: pos (27.0, 0) — size 54.1×53 — text "841"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Coin BG/Coin Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Rank BG/Bronze Rank BG**: pos (-45, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Rank BG/Gold Rank BG**: pos (45, 0) — size 45×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/GoldRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Rank BG/Silver Rank BG**: pos (0, 0) — size 39×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/SilverRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Badge BG/Badge BG**: pos (-70.2, 0) — size 65×61 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Badge BG/Star BG**: pos (-18.3, 0) — size 30×31 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/StarIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Badge BG/Txt**: pos (27.0, 0) — size 54.1×53 — text "841"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Coin BG/Coin Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Rank BG/Bronze Rank BG**: pos (-45, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Rank BG/Gold Rank BG**: pos (45, 0) — size 45×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/GoldRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Rank BG/Silver Rank BG**: pos (0, 0) — size 39×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/SilverRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Badge BG/Badge BG**: pos (-70.2, 0) — size 65×61 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Badge BG/Star BG**: pos (-18.3, 0) — size 30×31 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/StarIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Badge BG/Txt**: pos (27.0, 0) — size 54.1×53 — text "841"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Coin BG/Coin Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Rank BG/Bronze Rank BG**: pos (-45, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Rank BG/Gold Rank BG**: pos (45, 0) — size 45×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/GoldRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Rank BG/Silver Rank BG**: pos (0, 0) — size 39×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/SilverRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Badge BG/Badge BG**: pos (-70.2, 0) — size 65×61 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Badge BG/Star BG**: pos (-18.3, 0) — size 30×31 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/StarIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Badge BG/Txt**: pos (27.0, 0) — size 54.1×53 — text "841"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Coin BG/Coin Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Rank BG/Bronze Rank BG**: pos (-45, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Rank BG/Gold Rank BG**: pos (45, 0) — size 45×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/GoldRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Rank BG/Silver Rank BG**: pos (0, 0) — size 39×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/SilverRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Badge BG/Badge BG**: pos (-70.2, 0) — size 65×61 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Badge BG/Star BG**: pos (-18.3, 0) — size 30×31 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/StarIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Badge BG/Txt**: pos (27.0, 0) — size 54.1×53 — text "841"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Coin BG/Coin Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Rank BG/Bronze Rank BG**: pos (-45, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Rank BG/Gold Rank BG**: pos (45, 0) — size 45×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/GoldRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Rank BG/Silver Rank BG**: pos (0, 0) — size 39×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/SilverRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Badge BG/Badge BG**: pos (-70.2, 0) — size 65×61 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Badge BG/Star BG**: pos (-18.3, 0) — size 30×31 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/StarIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Badge BG/Txt**: pos (27.0, 0) — size 54.1×53 — text "841"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Coin BG/Coin Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Rank BG/Bronze Rank BG**: pos (-45, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Rank BG/Gold Rank BG**: pos (45, 0) — size 45×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/GoldRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Rank BG/Silver Rank BG**: pos (0, 0) — size 39×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/SilverRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Badge BG/Badge BG**: pos (-70.2, 0) — size 65×61 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LevelBadge.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Badge BG/Star BG**: pos (-18.3, 0) — size 30×31 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/StarIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Badge BG/Txt**: pos (27.0, 0) — size 54.1×53 — text "841"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Coin BG/Coin Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Rank BG/Bronze Rank BG**: pos (-45, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Rank BG/Gold Rank BG**: pos (45, 0) — size 45×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/GoldRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Rank BG/Silver Rank BG**: pos (0, 0) — size 39×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/SilverRankIcon.png`
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Badge BG/Badge BG/Text (Legacy)**: pos (0, 5) — size 31.9×34.7 — text "5"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Badge BG/Badge BG/Text (Legacy)**: pos (0, 5) — size 31.9×34.7 — text "5"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Badge BG/Badge BG/Text (Legacy)**: pos (0, 5) — size 31.9×34.7 — text "5"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Badge BG/Badge BG/Text (Legacy)**: pos (0, 5) — size 31.9×34.7 — text "5"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Badge BG/Badge BG/Text (Legacy)**: pos (0, 5) — size 31.9×34.7 — text "5"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Badge BG/Badge BG/Text (Legacy)**: pos (0, 5) — size 31.9×34.7 — text "5"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Badge BG/Badge BG/Text (Legacy)**: pos (0, 5) — size 31.9×34.7 — text "5"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Badge BG/Badge BG/Text (Legacy)**: pos (0, 5) — size 31.9×34.7 — text "5"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Badge BG/Badge BG/Text (Legacy)**: pos (0, 5) — size 31.9×34.7 — text "5"
+- **Canvas/Leaderboard Friends Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Badge BG/Badge BG/Text (Legacy)**: pos (0, 5) — size 31.9×34.7 — text "5"

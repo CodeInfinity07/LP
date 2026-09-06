@@ -1,0 +1,111 @@
+# collection-pinontop - layout reference
+
+Extracted from `Assets/Scenes/CollectionPinOnTopScene.unity`. Each line: hierarchy path, position (Unity anchored position, x/y in px from anchor), size (width×height), and its sprite image or text content.
+Position/size values are Unity coordinates - use as a reference for relative placement/proportions when laying out the equivalent Cocos node, not literal drop-in numbers (Cocos's coordinate system and anchoring differ).
+
+- **Canvas/Pin On Top Panel**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Bg.png`
+- **Canvas/Test BG**: pos (0, 0) — size 1080×1920 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top).png`
+- **Canvas/Pin On Top Panel/Safe Area/Header BG**: pos (0, 0) — size 0×210 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Top Bg.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View**: pos (0, -670) — size 1080×1440 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Txt BG**: pos (0, 132) — size 421×91 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Pin On Top.png`
+- **Canvas/Pin On Top Panel/Safe Area/Bid Panel /BG**: pos (0, 0) — size 801×795 — sprite `UI/Sprites/45 Collections (Your Bid)/45 Collections (Your Bid)-assets/Popup_Box.png`
+- **Canvas/Pin On Top Panel/Safe Area/Header BG/Close Btn**: pos (440, 0) — size 94×108 — sprite `UI/Sprites/41 Collections (Sticker)/41 Collections (Sticker)-assets/Close.png`
+- **Canvas/Pin On Top Panel/Safe Area/Header BG/Diamond BG **: pos (0, 0) — size 230×87 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Dimond Bg.png`
+- **Canvas/Pin On Top Panel/Safe Area/Header BG/Info Btn**: pos (-440, 0) — size 94×108 — sprite `UI/Sprites/41 Collections (Sticker)/41 Collections (Sticker)-assets/Info.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size 0×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport**: pos (0, 0) — size 0×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Txt BG/Text (Legacy)**: pos (0, -73) — size 421×60.5 — text "Language regions & English & Pakistan"
+- **Canvas/Pin On Top Panel/Safe Area/Bid Panel /BG/Close Btn**: pos (307, 322) — size 79×91 — sprite `UI/Sprites/45 Collections (Your Bid)/45 Collections (Your Bid)-assets/Close_ic.png`
+- **Canvas/Pin On Top Panel/Safe Area/Bid Panel /BG/Play Btn**: pos (0, -315) — size 367×120 — sprite `UI/Sprites/45 Collections (Your Bid)/45 Collections (Your Bid)-assets/Send_Box.png`
+- **Canvas/Pin On Top Panel/Safe Area/Bid Panel /BG/Pop Up BG**: pos (0, 0) — size 747×458 — sprite `UI/Sprites/45 Collections (Your Bid)/45 Collections (Your Bid)-assets/Popup_Underbox.png`
+- **Canvas/Pin On Top Panel/Safe Area/Bid Panel /BG/Txt BG**: pos (0, 322) — size 214×46 — sprite `UI/Sprites/45 Collections (Your Bid)/45 Collections (Your Bid)-assets/Your Bid.png`
+- **Canvas/Pin On Top Panel/Safe Area/Header BG/Diamond BG /Add Btn**: pos (30, 0) — size 63×63 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Puls.png`
+- **Canvas/Pin On Top Panel/Safe Area/Header BG/Diamond BG /Diamond**: pos (-15, 0) — size 66×59 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Dimond.png`
+- **Canvas/Pin On Top Panel/Safe Area/Header BG/Diamond BG /Text (Legacy)**: pos (10, 0) — size 139×87 — text "45.84k"
+- **Canvas/Pin On Top Panel/Safe Area/Bid Panel /BG/Play Btn/Text (Legacy)**: pos (0, 0) — size 0×0 — text "Play"
+- **Canvas/Pin On Top Panel/Safe Area/Bid Panel /BG/Play Btn/UnSelected Play BG**: pos (0, 0) — size 367×120 — sprite `UI/Sprites/45 Collections (Your Bid)/45 Collections (Your Bid)-assets/Send_Box_Unselected.png`
+- **Canvas/Pin On Top Panel/Safe Area/Bid Panel /BG/Pop Up BG/Add Btn**: pos (221, -120) — size 104×116 — sprite `UI/Sprites/45 Collections (Your Bid)/45 Collections (Your Bid)-assets/Plus.png`
+- **Canvas/Pin On Top Panel/Safe Area/Bid Panel /BG/Pop Up BG/Bid Box BG**: pos (0, -120) — size 265×107 — sprite `UI/Sprites/45 Collections (Your Bid)/45 Collections (Your Bid)-assets/Bid_box.png`
+- **Canvas/Pin On Top Panel/Safe Area/Bid Panel /BG/Pop Up BG/Diamond BG**: pos (0, 35) — size 96×87 — sprite `UI/Sprites/45 Collections (Your Bid)/45 Collections (Your Bid)-assets/1 Dimond.png`
+- **Canvas/Pin On Top Panel/Safe Area/Bid Panel /BG/Pop Up BG/Minus Btn**: pos (-230, -120) — size 104×116 — sprite `UI/Sprites/45 Collections (Your Bid)/45 Collections (Your Bid)-assets/-.png`
+- **Canvas/Pin On Top Panel/Safe Area/Bid Panel /BG/Pop Up BG/Text (Legacy)**: pos (-8.1, 155.4) — size 618.2×103.7 — text "Note: you will receive a full refund when you are outbid."
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)**: pos (0, 0) — size 998×422 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Selected Mode Bg.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)**: pos (0, 0) — size 998×422 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Selected Mode Bg.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)**: pos (0, 0) — size 998×422 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Selected Mode Bg.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)**: pos (0, 0) — size 998×422 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Selected Mode Bg.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)**: pos (0, 0) — size 998×422 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Selected Mode Bg.png`
+- **Canvas/Pin On Top Panel/Safe Area/Bid Panel /BG/Pop Up BG/Bid Box BG/Diamond BG**: pos (-69.1, 0) — size 59×53 — sprite `UI/Sprites/45 Collections (Your Bid)/45 Collections (Your Bid)-assets/2 Dimond.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)/BG**: pos (0, 0) — size 980×176 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Line_box.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)/Bid Detail Btn**: pos (415, -128.1) — size 51×51 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/No bids yet_ic.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)/Button (Legacy)**: pos (0, -219) — size 369×99 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/button.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)/Image**: pos (-352, 214) — size 198×74 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Select Mode.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)/Text (Legacy)**: pos (0, 126.4) — size 524.4×53.2 — text "Pin your room on top for 2h"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)/Text (Legacy) (1)**: pos (-350.3, -127) — size 219.7×53.2 — text "No bids yet"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)/BG**: pos (0, 0) — size 980×176 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Line_box.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)/Bid Detail Btn**: pos (415, -128.1) — size 51×51 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/No bids yet_ic.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)/Button (Legacy)**: pos (0, -219) — size 369×99 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/button.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)/Image**: pos (-352, 214) — size 198×74 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Select Mode.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)/Text (Legacy)**: pos (0, 126.4) — size 524.4×53.2 — text "Pin your room on top for 2h"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)/Text (Legacy) (1)**: pos (-350.3, -127) — size 219.7×53.2 — text "No bids yet"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)/BG**: pos (0, 0) — size 980×176 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Line_box.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)/Bid Detail Btn**: pos (415, -128.1) — size 51×51 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/No bids yet_ic.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)/Button (Legacy)**: pos (0, -219) — size 369×99 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/button.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)/Image**: pos (-352, 214) — size 198×74 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Select Mode.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)/Text (Legacy)**: pos (0, 126.4) — size 524.4×53.2 — text "Pin your room on top for 2h"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)/Text (Legacy) (1)**: pos (-350.3, -127) — size 219.7×53.2 — text "No bids yet"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)/BG**: pos (0, 0) — size 980×176 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Line_box.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)/Bid Detail Btn**: pos (415, -128.1) — size 51×51 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/No bids yet_ic.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)/Button (Legacy)**: pos (0, -219) — size 369×99 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/button.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)/Image**: pos (-352, 214) — size 198×74 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Select Mode.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)/Text (Legacy)**: pos (0, 126.4) — size 524.4×53.2 — text "Pin your room on top for 2h"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)/Text (Legacy) (1)**: pos (-350.3, -127) — size 219.7×53.2 — text "No bids yet"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)/BG**: pos (0, 0) — size 980×176 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Line_box.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)/Bid Detail Btn**: pos (415, -128.1) — size 51×51 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/No bids yet_ic.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)/Button (Legacy)**: pos (0, -219) — size 369×99 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/button.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)/Image**: pos (-352, 214) — size 198×74 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Select Mode.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)/Text (Legacy)**: pos (0, 126.4) — size 524.4×53.2 — text "Pin your room on top for 2h"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)/Text (Legacy) (1)**: pos (-350.3, -127) — size 219.7×53.2 — text "No bids yet"
+- **Canvas/Pin On Top Panel/Safe Area/Bid Panel /BG/Pop Up BG/Bid Box BG/Diamond BG/Text (Legacy)**: pos (107.4, 0) — size 147.5×53 — text "7500"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)/BG/Diamond BG**: pos (-376.9, -30) — size 66×59 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Dimond.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)/BG/Divider BG**: pos (0, 0) — size 8×116 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Divider.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)/BG/Text (Legacy)**: pos (266, -20) — size 198.2×59 — text "01:24:05"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)/BG/Text (Legacy) (2)**: pos (266, 46) — size 198.3×50 — text "End in:"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)/Button (Legacy)/Image**: pos (-61, 0) — size 53×51 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Bid_ic.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)/Image/Text (Legacy)**: pos (0.7, 0) — size 181.3×74 — text "NO.7548"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)/BG/Diamond BG**: pos (-376.9, -30) — size 66×59 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Dimond.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)/BG/Divider BG**: pos (0, 0) — size 8×116 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Divider.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)/BG/Text (Legacy)**: pos (266, -20) — size 198.2×59 — text "01:24:05"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)/BG/Text (Legacy) (2)**: pos (266, 46) — size 198.3×50 — text "End in:"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)/Button (Legacy)/Image**: pos (-61, 0) — size 53×51 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Bid_ic.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)/Image/Text (Legacy)**: pos (0.7, 0) — size 181.3×74 — text "NO.7548"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)/BG/Diamond BG**: pos (-376.9, -30) — size 66×59 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Dimond.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)/BG/Divider BG**: pos (0, 0) — size 8×116 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Divider.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)/BG/Text (Legacy)**: pos (-311.6, 46.0) — size 198.3×50 — text "Current Bid:"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)/BG/Text (Legacy) (2)**: pos (266, 46) — size 198.3×50 — text "End in:"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)/Button (Legacy)/Image**: pos (-61, 0) — size 53×51 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Bid_ic.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)/Image/Text (Legacy)**: pos (0.7, 0) — size 181.3×74 — text "NO.7548"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)/BG/Diamond BG**: pos (-376.9, -30) — size 66×59 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Dimond.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)/BG/Divider BG**: pos (0, 0) — size 8×116 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Divider.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)/BG/Text (Legacy)**: pos (266, -20) — size 198.2×59 — text "01:24:05"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)/BG/Text (Legacy) (2)**: pos (266, 46) — size 198.3×50 — text "End in:"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)/Button (Legacy)/Image**: pos (-61, 0) — size 53×51 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Bid_ic.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)/Image/Text (Legacy)**: pos (0.7, 0) — size 181.3×74 — text "NO.7548"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)/BG/Diamond BG**: pos (-376.9, -30) — size 66×59 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Dimond.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)/BG/Divider BG**: pos (0, 0) — size 8×116 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Divider.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)/BG/Text (Legacy)**: pos (266, -20) — size 198.2×59 — text "01:24:05"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)/BG/Text (Legacy) (2)**: pos (266, 46) — size 198.3×50 — text "End in:"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)/Button (Legacy)/Image**: pos (-61, 0) — size 53×51 — sprite `UI/Sprites/44 Collections (Pin on Top)/44 Collections (Pin on Top)-assets/Bid_ic.png`
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)/Image/Text (Legacy)**: pos (0.7, 0) — size 181.3×74 — text "NO.7548"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)/BG/Diamond BG/Text (Legacy)**: pos (122, 0) — size 160×59 — text "7,000"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (1)/Button (Legacy)/Image/Text (Legacy)**: pos (104.2, 0) — size 125.6×59 — text "BID"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)/BG/Diamond BG/Text (Legacy)**: pos (122, 0) — size 160×59 — text "7,000"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (2)/Button (Legacy)/Image/Text (Legacy)**: pos (104.2, 0) — size 125.6×59 — text "BID"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)/BG/Diamond BG/Text (Legacy)**: pos (122, 0) — size 160×59 — text "7,000"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (3)/Button (Legacy)/Image/Text (Legacy)**: pos (104.2, 0) — size 125.6×59 — text "BID"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)/BG/Diamond BG/Text (Legacy)**: pos (122, 0) — size 160×59 — text "7,000"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (4)/Button (Legacy)/Image/Text (Legacy)**: pos (104.2, 0) — size 125.6×59 — text "BID"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)/BG/Diamond BG/Text (Legacy)**: pos (122, 0) — size 160×59 — text "7,000"
+- **Canvas/Pin On Top Panel/Safe Area/BG/Scroll View/Viewport/Content/Fence Box BG (5)/Button (Legacy)/Image/Text (Legacy)**: pos (104.2, 0) — size 125.6×59 — text "BID"

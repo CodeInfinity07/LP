@@ -1,0 +1,163 @@
+# leaderboard-ludobillionaire - layout reference
+
+Extracted from `Assets/Scenes/LeaderboardLudoScene.unity`. Each line: hierarchy path, position (Unity anchored position, x/y in px from anchor), size (width×height), and its sprite image or text content.
+Position/size values are Unity coordinates - use as a reference for relative placement/proportions when laying out the equivalent Cocos node, not literal drop-in numbers (Cocos's coordinate system and anchoring differ).
+
+- **Canvas/Leaderboard Ludo Panel**: pos (0, 0) — size 0×0 — sprite `UI/Sprites/04 Game Mode (Single Matches)/04 Game Mode (Single Matches)-assets/Bg.png`
+- **Canvas/Test BG**: pos (0, 0) — size 1080×1920 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire).png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG**: pos (0, -663) — size 984×1250 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/List_bg.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Header BG**: pos (0, 0) — size 0×210 — sprite `UI/Sprites/03 Home Screen/03 Front Screen-assets/Top Bg.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG**: pos (0, -150) — size 1080×636 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Ludo Billionaire 1.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Earnings Txt**: pos (330, 560) — size 185.5×61 — text "Earnings"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Name Txt**: pos (-183, 560) — size 160×61 — text "Name"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Rank Txt**: pos (-373, 560) — size 160×61 — text "Rank"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View**: pos (0, -50) — size 1080×1152.6 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Header BG/Close Btn**: pos (450, 0) — size 94×108 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Close.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Header BG/Info Btn**: pos (-450, 0) — size 94×108 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/Info.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Header BG/Ludo BG**: pos (0, 0) — size 578×64 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Ludo Billonairel.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (1)**: pos (0, 90) — size 104×104 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/1stBorder.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (2)**: pos (-260, 30) — size 98×98 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/2ndBorder.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (3)**: pos (240.8, 0) — size 98×98 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/3rdBorder.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Scrollbar Horizontal**: pos (0, 0) — size 0×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Scrollbar Vertical**: pos (0, 0) — size 20×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport**: pos (0, 0) — size 0×0 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (1)/1st Badge BG**: pos (0, -58) — size 131×54 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony bag_box.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (1)/Pic BG**: pos (0, 0) — size 90×90 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/1stPic.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (1)/Text (Legacy)**: pos (-2.6, 85) — size 128.3×40 — text "Alhan"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (2)/2nd Badge BG**: pos (0, -47) — size 131×54 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony bag_box.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (2)/Pic BG**: pos (0, 0) — size 84×84 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/2ndPic.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (2)/Text (Legacy)**: pos (1.7, 84) — size 125.0×40 — text "Alhan"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (3)/3rd Badge BG**: pos (0, -59) — size 131×54 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony bag_box.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (3)/Pic BG**: pos (0, 0) — size 84×84 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/3rdPic.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (3)/Text (Legacy)**: pos (5.9, 74) — size 126.3×40 — text "Alhan"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (1)/1st Badge BG/Money Bag BG**: pos (-22, 0) — size 32×39 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony bag_box_ic.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (1)/Pic BG/Pic**: pos (0, 0) — size 259×259 — sprite `UI/Sprites/11 Leaderboard-assets/11 Leaderboard-assets/ProfilePic.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (2)/2nd Badge BG/Money Bag BG**: pos (-32.8, 0) — size 32×39 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony bag_box_ic.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (2)/Pic BG/Pic**: pos (0, 0) — size 259×259 — sprite `UI/Sprites/11 Leaderboard-assets/11 Leaderboard-assets/ProfilePic.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (3)/3rd Badge BG/Money Bag BG**: pos (-28, 0) — size 32×39 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony bag_box_ic.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (3)/Pic BG/Pic**: pos (0, 0) — size 259×259 — sprite `UI/Sprites/11 Leaderboard-assets/11 Leaderboard-assets/ProfilePic.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Scrollbar Horizontal/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Scrollbar Vertical/Sliding Area/Handle**: pos (0, 0) — size 20×20 — sprite `UNKNOWN_GUID:0000000000000000f000000000000000`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)**: pos (0, 0) — size 915×161 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/LeaderListBG.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (1)/1st Badge BG/Money Bag BG/Text (Legacy)**: pos (47.0, 0) — size 59.2×44.4 — text "***"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (2)/2nd Badge BG/Money Bag BG/Text (Legacy)**: pos (47.0, 0) — size 59.2×44.4 — text "***"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/Leader BG/Frame BG (3)/3rd Badge BG/Money Bag BG/Text (Legacy)**: pos (47.0, 0) — size 59.2×44.4 — text "***"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Flag BG**: pos (-110.1, -36.3) — size 56×38 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/pakistan.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Money Bag BG**: pos (293, 0) — size 52×62 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony_Bag_Icon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Rank BG**: pos (14.7, -36.7) — size 176×53 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Long_bg.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Text (Legacy)**: pos (-390, 0) — size 130×160 — text "1"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Flag BG**: pos (-110.1, -36.3) — size 56×38 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/pakistan.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Money Bag BG**: pos (293, 0) — size 52×62 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony_Bag_Icon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Rank BG**: pos (14.7, -36.7) — size 176×53 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Long_bg.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Text (Legacy)**: pos (-390, 0) — size 130×160 — text "10"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Flag BG**: pos (-110.1, -36.3) — size 56×38 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/pakistan.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Money Bag BG**: pos (293, 0) — size 52×62 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony_Bag_Icon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Rank BG**: pos (14.7, -36.7) — size 176×53 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Long_bg.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Text (Legacy)**: pos (-390, 0) — size 130×160 — text "2"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Flag BG**: pos (-110.1, -36.3) — size 56×38 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/pakistan.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Money Bag BG**: pos (293, 0) — size 52×62 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony_Bag_Icon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Rank BG**: pos (14.7, -36.7) — size 176×53 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Long_bg.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Text (Legacy)**: pos (-390, 0) — size 130×160 — text "3"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Flag BG**: pos (-110.1, -36.3) — size 56×38 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/pakistan.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Money Bag BG**: pos (293, 0) — size 52×62 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony_Bag_Icon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Rank BG**: pos (14.7, -36.7) — size 176×53 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Long_bg.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Text (Legacy)**: pos (-390, 0) — size 130×160 — text "4"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Flag BG**: pos (-110.1, -36.3) — size 56×38 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/pakistan.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Money Bag BG**: pos (293, 0) — size 52×62 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony_Bag_Icon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Rank BG**: pos (14.7, -36.7) — size 176×53 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Long_bg.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Text (Legacy)**: pos (-390, 0) — size 130×160 — text "5"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Flag BG**: pos (-110.1, -36.3) — size 56×38 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/pakistan.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Money Bag BG**: pos (293, 0) — size 52×62 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony_Bag_Icon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Rank BG**: pos (14.7, -36.7) — size 176×53 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Long_bg.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Text (Legacy)**: pos (-390, 0) — size 130×160 — text "6"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Flag BG**: pos (-110.1, -36.3) — size 56×38 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/pakistan.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Money Bag BG**: pos (293, 0) — size 52×62 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony_Bag_Icon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Rank BG**: pos (14.7, -36.7) — size 176×53 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Long_bg.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Text (Legacy)**: pos (-390, 0) — size 130×160 — text "7"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Flag BG**: pos (-110.1, -36.3) — size 56×38 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/pakistan.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Money Bag BG**: pos (293, 0) — size 52×62 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony_Bag_Icon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Rank BG**: pos (14.7, -36.7) — size 176×53 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Long_bg.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Text (Legacy)**: pos (-390, 0) — size 130×160 — text "8"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Flag BG**: pos (-110.1, -36.3) — size 56×38 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/pakistan.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Frame BG**: pos (-234, 0) — size 124×125 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/User.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Money Bag BG**: pos (293, 0) — size 52×62 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Mony_Bag_Icon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Name Txt**: pos (-26.3, 26.8) — size 237.4×57.0 — text "Ghashia Kaleel"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Rank BG**: pos (14.7, -36.7) — size 176×53 — sprite `UI/Sprites/13 Leaderboard (Ludo Billionaire)/13 Leaderboard (Ludo Billionaire)-assets/Long_bg.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Text (Legacy)**: pos (-390, 0) — size 130×160 — text "9"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Money Bag BG/Money bag Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Rank BG/Bronze Rank BG (1)**: pos (-54.7, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Rank BG/Bronze Rank BG (2)**: pos (-18, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Rank BG/Bronze Rank BG (3)**: pos (19.1, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (1)/Rank BG/Text (Legacy)**: pos (58.2, 0) — size 40.3×53 — text "3"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Money Bag BG/Money bag Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Rank BG/Bronze Rank BG (1)**: pos (-54.7, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Rank BG/Bronze Rank BG (2)**: pos (-18, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Rank BG/Bronze Rank BG (3)**: pos (19.1, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (10)/Rank BG/Text (Legacy)**: pos (58.2, 0) — size 40.3×53 — text "3"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Money Bag BG/Money bag Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Rank BG/Bronze Rank BG (1)**: pos (-54.7, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Rank BG/Bronze Rank BG (2)**: pos (-18, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Rank BG/Bronze Rank BG (3)**: pos (19.1, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (2)/Rank BG/Text (Legacy)**: pos (58.2, 0) — size 40.3×53 — text "3"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Money Bag BG/Money bag Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Rank BG/Bronze Rank BG (1)**: pos (-54.7, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Rank BG/Bronze Rank BG (2)**: pos (-18, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Rank BG/Bronze Rank BG (3)**: pos (19.1, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (3)/Rank BG/Text (Legacy)**: pos (58.2, 0) — size 40.3×53 — text "3"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Money Bag BG/Money bag Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Rank BG/Bronze Rank BG (1)**: pos (-54.7, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Rank BG/Bronze Rank BG (2)**: pos (-18, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Rank BG/Bronze Rank BG (3)**: pos (19.1, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (4)/Rank BG/Text (Legacy)**: pos (58.2, 0) — size 40.3×53 — text "3"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Money Bag BG/Money bag Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Rank BG/Bronze Rank BG (1)**: pos (-54.7, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Rank BG/Bronze Rank BG (2)**: pos (-18, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Rank BG/Bronze Rank BG (3)**: pos (19.1, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (5)/Rank BG/Text (Legacy)**: pos (58.2, 0) — size 40.3×53 — text "3"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Money Bag BG/Money bag Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Rank BG/Bronze Rank BG (1)**: pos (-54.7, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Rank BG/Bronze Rank BG (2)**: pos (-18, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Rank BG/Bronze Rank BG (3)**: pos (19.1, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (6)/Rank BG/Text (Legacy)**: pos (58.2, 0) — size 40.3×53 — text "3"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Money Bag BG/Money bag Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Rank BG/Bronze Rank BG (1)**: pos (-54.7, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Rank BG/Bronze Rank BG (2)**: pos (-18, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Rank BG/Bronze Rank BG (3)**: pos (19.1, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (7)/Rank BG/Text (Legacy)**: pos (58.2, 0) — size 40.3×53 — text "3"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Money Bag BG/Money bag Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Rank BG/Bronze Rank BG (1)**: pos (-54.7, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Rank BG/Bronze Rank BG (2)**: pos (-18, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Rank BG/Bronze Rank BG (3)**: pos (19.1, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (8)/Rank BG/Text (Legacy)**: pos (58.2, 0) — size 40.3×53 — text "3"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Money Bag BG/Money bag Txt**: pos (78.4, 0) — size 107.2×47 — text "185.6k"
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Rank BG/Bronze Rank BG (1)**: pos (-54.7, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Rank BG/Bronze Rank BG (2)**: pos (-18, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Rank BG/Bronze Rank BG (3)**: pos (19.1, 0) — size 33×36 — sprite `UI/Sprites/12 Leaderboards-assets/12 Leaderboards-assets/BronzeRankIcon.png`
+- **Canvas/Leaderboard Ludo Panel/Safe Area/BG/Scroll View/Viewport/Content/Leader List BG (9)/Rank BG/Text (Legacy)**: pos (58.2, 0) — size 40.3×53 — text "3"
