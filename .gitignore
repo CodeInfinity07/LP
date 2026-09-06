@@ -1,0 +1,15 @@
+# Cocos Creator editor/build artifacts - regenerated on open/build, not source
+/build/
+/temp/
+/library/
+/local/
+/native/
+
+# Node
+/node_modules/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json

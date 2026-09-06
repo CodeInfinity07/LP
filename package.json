@@ -1,0 +1,16 @@
+{
+  "name": "ludo-cocos-client",
+  "version": "0.1.0",
+  "description": "Malik al Ludo client rewrite in Cocos Creator (TypeScript), replacing the Unity lobby/meta shell and adding the Ludo gameplay that never existed in the Unity project.",
+  "private": true,
+  "creator": {
+    "version": "3.8.6"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "@cocos/creator-types": "^3.8.8",
+    "typescript": "^5.4.0"
+  }
+}

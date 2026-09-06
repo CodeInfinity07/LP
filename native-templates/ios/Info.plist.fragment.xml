@@ -1,0 +1,53 @@
+<!--
+    Entries to merge into the Cocos Creator-generated Info.plist via the
+    build-templates mechanism (confirm exact merge point in Phase 0).
+
+    App ID / Client Token are the same real values shipped in the Unity
+    Android manifest (Assets/Plugins/Android/AndroidManifest.xml) - same
+    Facebook app, both platforms. The Unity project's iOS FacebookSDK plugin
+    folder (Assets/FacebookSDK/Plugins/iOS) carries the equivalent iOS-side
+    config but as Unity editor asset files, not a plain plist - these values
+    are ported from the Android manifest instead since it's the same FB app
+    either way.
+-->
+<plist version="1.0">
+<dict>
+  <key>CFBundleURLTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>fb1787730748457941</string>
+      </array>
+    </dict>
+  </array>
+
+  <key>FacebookAppID</key>
+  <string>1787730748457941</string>
+  <key>FacebookClientToken</key>
+  <string>bf296f448fbfc4962475033174a1376e</string>
+  <key>FacebookDisplayName</key>
+  <string>Malik al Ludo</string>
+
+  <key>LSApplicationQueriesSchemes</key>
+  <array>
+    <string>fbapi</string>
+    <string>fbauth2</string>
+    <string>fb-messenger-share-api</string>
+  </array>
+
+  <!--
+    Only needed if FB's ad-tracking/attribution features are left enabled
+    (see the AutoLogAppEventsEnabled/AdvertiserIDCollectionEnabled note in
+    ../android/AndroidManifest.fragment.xml). Per the port plan's
+    recommendation to disable those (only login+profile-fetch is used),
+    this prompt - and the NSUserTrackingUsageDescription key it requires -
+    can likely be skipped entirely. Left commented out; uncomment only if
+    that recommendation is not followed.
+  -->
+  <!--
+  <key>NSUserTrackingUsageDescription</key>
+  <string>This identifier will be used to deliver personalized content to you.</string>
+  -->
+</dict>
+</plist>

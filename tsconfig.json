@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "outDir": "temp/vscode-dist"
+  },
+  "files": [
+    "node_modules/@cocos/creator-types/engine.d.ts"
+  ],
+  "include": [
+    "assets/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "temp",
+    "library",
+    "build"
+  ]
+}

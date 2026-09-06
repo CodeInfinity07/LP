@@ -1,0 +1,22 @@
+// Merge into the Cocos Creator-generated app-level build.gradle via the
+// build-templates mechanism (confirm exact merge point/version syntax in
+// Phase 0 - Creator's native customization API differs between 3.x
+// releases).
+//
+// Version pinned to what the Unity project actually shipped
+// (Assets/Plugins/Android/com.facebook.android.facebook-*-17.0.2.aar,
+// pulled automatically there by Google's External Dependency Manager).
+// Recommend bumping to the current stable Facebook Android SDK release
+// instead of pinning to this now-dated version, per the port plan - left
+// at 17.0.2 here only so this fragment matches the Unity behavior being
+// replicated 1:1 as a starting point.
+
+dependencies {
+    implementation 'com.facebook.android:facebook-login:17.0.2'
+    implementation 'com.facebook.android:facebook-share:17.0.2'
+    // facebook-core, facebook-common, facebook-applinks, facebook-gamingservices
+    // are transitive deps of facebook-login/facebook-share and don't need to
+    // be declared separately (the Unity project vendored them all as
+    // separate AARs only because Unity's EDM4U doesn't resolve transitive
+    // Maven dependencies the way Gradle does natively).
+}
